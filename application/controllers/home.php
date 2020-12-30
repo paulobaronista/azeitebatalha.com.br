@@ -7,8 +7,8 @@ class Home extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'LANDINGPAGEMODELO';
-        $data['description'] = 'description';
+        $data['title'] = 'Azeite Batalha';
+        $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
         $data['keywords'] = 'keywords';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';

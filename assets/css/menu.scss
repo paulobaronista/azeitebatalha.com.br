@@ -1,0 +1,133 @@
+.menu {
+    position: fixed;
+    width: 100%;
+    float: left;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background-color: #000000;
+    border-color: transparent;
+    border-radius: 0px;
+    min-height: auto;
+    margin-bottom: 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    .navbar-collapse,
+    .navbar-form {
+        border-color: transparent;
+    }
+
+    .nav>li>a {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 12px;
+
+        &::before {
+            content: '•';
+            position: absolute;
+            right: -6px;
+            color: #aca727;
+            font-size: 30px;
+            line-height: 9px;
+        }
+    }
+
+    .fale-conosco::before {
+        content: "" !important;
+    }
+
+    .navbar-brand {
+        float: left;
+        height: auto;
+        padding: 0;
+        margin-left: 0px;
+    }
+
+    .navbar-nav>li>a:focus,
+    .navbar-nav>li>a:hover {
+        color: #aca727;
+    }
+
+    .redes {
+        a {
+            padding: 5px 5px;
+
+            &::before {
+                content: '' !important;
+            }
+        }
+    }
+
+}
+
+
+/* Extra Small */
+@media(max-width:767px) {
+    .menu {
+        .nav>li>a {
+            font-size: 12px;
+            line-height: 12px;
+            padding-left: 0;
+
+            &::before {
+                content: '';
+                font-size: 30px;
+                line-height: 9px;
+            }
+        }
+
+        .redes {
+            display: inline-table;
+
+            a {
+                padding: 5px 5px;
+            }
+        }
+
+        .navbar-toggle {
+            margin-top: 3px;
+            margin-right: 5px;
+            border-color: #fff;
+            margin-bottom: 0;
+        }
+
+        .navbar-collapse {
+            border-top: 0px solid transparent;
+            box-shadow: none;
+        }
+
+        .navbar-toggle .icon-bar {
+            background-color: #fff;
+        }
+
+        .navbar-toggle:focus,
+        .navbar-toggle:hover {
+            background-color: transparent;
+        }
+
+        .navbar-collapse,
+        .navbar-form {
+            border-color: transparent;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {
+    .menu {
+        .nav>li>a {
+            font-size: 10px;
+            line-height: 10px;
+        }
+    }
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

@@ -7,8 +7,8 @@ class Contato extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'LANDINGPAGEMODELO';
-        $data['description'] = 'description';
+        $data['title'] = 'Azeite Batalha';
+        $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
         $data['keywords'] = 'keywords';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
@@ -43,12 +43,6 @@ class Contato extends CI_Controller{
                 redirect('contato/fail');
             }
 
-            //            if($this->email->send()){
-            //                redirect('http://racklavaloucas.com.br/contato/obrigado');
-            //            }else{
-            //                redirect('http://racklavaloucas.com.br/contato/fail');
-            //            }
-
         }
 
         $this->load->view('html_header', $data);
@@ -60,8 +54,8 @@ class Contato extends CI_Controller{
     }
 
     public function obrigado(){
-        $data['title'] = 'LANDINGPAGEMODELO';
-        $data['description'] = 'description';
+        $data['title'] = 'Azeite Batalha';
+        $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
         $data['keywords'] = 'keywords';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
@@ -74,8 +68,8 @@ class Contato extends CI_Controller{
     }
 
     public function fail(){
-        $data['title'] = 'LANDINGPAGEMODELO';
-        $data['description'] = 'description';
+        $data['title'] = 'Azeite Batalha';
+        $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
         $data['keywords'] = 'keywords';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
