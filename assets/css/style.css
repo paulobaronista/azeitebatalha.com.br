@@ -183,7 +183,7 @@ p {
 }
 
 .aviso {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
   position: fixed;
@@ -581,8 +581,8 @@ p {
 /* Large */
 .azeites-txt {
   background-color: #a8a62b;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-bottom: 45px;
+  padding-top: 45px;
 }
 
 .azeites-txt p {
@@ -590,12 +590,49 @@ p {
   font-weight: normal;
   font-style: normal;
   color: #fff;
-  font-size: 50px;
-  line-height: 40px;
+  font-size: 55px;
+  line-height: 45px;
+}
+
+.intenso {
+  margin-top: -9%;
+  float: left;
+}
+
+.frutado {
+  margin-top: -4%;
+  float: left;
+}
+
+.black {
+  margin-top: -5%;
+  float: left;
 }
 
 /* Extra Small */
+@media (max-width: 767px) {
+  .azeites-txt {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .azeites-txt p {
+    font-size: 35px;
+    line-height: 30px;
+  }
+}
+
 /* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .azeites-txt {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .azeites-txt p {
+    font-size: 40px;
+    line-height: 35px;
+  }
+}
+
 /* Medium */
 /* Large */
 .contato {

@@ -1,40 +1,10 @@
-<nav class="navbar navbar-default menu">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand scrollink" href=""><img src="<?= base_url(); ?>assets/images/logo.png" alt="Batalha"></a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a class="scrollink active" href="#produtos">Produtos</a></li>
-                        <li><a class="scrollink" href="#sobre-nos">Sobre nós</a></li>
-                        <li><a class="scrollink" href="">Receita</a></li>
-                        <li><a class="scrollink" href="">Prêmios</a></li>
-                        <li><a class="scrollink" href="">Compre aqui</a></li>
-                        <li><a id="fale-conosco" class="scrollink fale-conosco" href="">Fale conosco</a></li>
-                        <li class="redes"><a href=""><img class="" src="<?= base_url(); ?>assets/images/insta.png" alt="Instagram"></a></li>
-                        <li class="redes"><a href=""><img class="" src="<?= base_url(); ?>assets/images/face.png" alt="Facebook"></a></li>
-                        <li class="redes"><a href=""><img class="" src="<?= base_url(); ?>assets/images/youtube.png" alt="Youtube"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</nav>
-<div id="produtos" class="container-fluid padding-off dt-home">
+<div id="home" class="container-fluid padding-off dt-home">
     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/detalhe.png" alt="detalhe">
 </div>
 <div class="container-fluid padding-off banner-home">
     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/banner-home.jpg" alt="O azeite do Brasil, premiado no exterior.">
 </div>
-<div id="sobre-nos" class="container-fluid padding-off video">
+<div class="container-fluid padding-off video">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
@@ -51,7 +21,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 margin-top-20">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/30WtiRcMDh4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-ULqU2MmbPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -92,7 +62,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid padding-off sobre-nos">
+<div id="sobre-nos" class="container-fluid padding-off sobre-nos">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
@@ -124,10 +94,10 @@
         </div>
     </div>
 </div>
-<div class="container-fluid padding-off azeites-txt">
+<div id="produtos" class="container-fluid padding-off azeites-txt">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <p>
                     Três sabores extraordinários. Prepare-se para ser conquistado
                 </p>
@@ -136,22 +106,21 @@
     </div>
 </div>
 <div class="container-fluid padding-off">
-    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/intenso.png" alt="Azeite Batalha Intenso">
+    <div class="intenso">
+        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/intenso.png" alt="Azeite Batalha Intenso">
+    </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="container-fluid padding-off receitas-txt">
+<div class="container-fluid padding-off">
+    <div class="frutado">
+        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/frutado.png" alt="Azeite Batalha Frutado">
+    </div>
+</div>
+<div class="container-fluid padding-off">
+    <div class="black">
+        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/black.png" alt="Azeite Batalha Black">
+    </div>
+</div>
+<div id="receitas" class="container-fluid padding-off receitas-txt">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
@@ -171,9 +140,6 @@
                         <div>
                             <img class="img-responsive center-block img-galeria" src="<?= base_url(); ?>assets/images/AzeiteBatalha_Receitas_Foto01_1273x702px.jpg" alt="Azeite Batalha Paralelo">
                         </div>
-                        <div>
-                            <img class="img-responsive center-block img-galeria" src="<?= base_url(); ?>assets/images/AzeiteBatalha_Receitas_Foto01_1273x702px.jpg" alt="Azeite Batalha Paralelo">
-                        </div>
                     </section>
                 </div>
             </div>
@@ -183,7 +149,7 @@
         </div>
     </div>
 </div>
-<div class="premios">
+<div id="premios" class="premios">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
@@ -237,24 +203,11 @@
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <p class="txt-1">SE PREFERIR, LIGUE OU MANDE UM ZAP:</p>
                 <p class="txt-2">11 95628-9001</p>
-                <p class="txt-1">CLIQUE <a href="">AQUI</a> E FAÇA SEU PEDIDO VIA WHATSAPP</p>
+                <p class="txt-1">CLIQUE <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511956289001" target="_blank">AQUI</a> E FAÇA SEU PEDIDO VIA WHATSAPP</p>
             </div>
         </div>
     </div>
 </div>
-<div class="container-fluid padding-off">
-    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/detalhe-2.png" alt="detalhe">
-</div>
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center padding-off">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-batalha.png" alt="Batalha">
-                <p>O SABOR QUE CONQUISTOU O MUNDO.</p>
-            </div>
-        </div>
-    </div>
-</footer>
 <?php
 if (isset($email_enviado))
     echo $email_enviado;

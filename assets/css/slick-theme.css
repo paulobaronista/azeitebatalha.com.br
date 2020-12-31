@@ -193,3 +193,17 @@
         left: 10px;
     }
 }
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+    .slick-prev,
+    .slick-next {
+        width: 15px;
+        height: 30px;
+    }
+    .slick-next {
+        right: 10px;
+    }
+    .slick-prev {
+        left: 10px;
+    }
+}

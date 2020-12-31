@@ -1,34 +1,32 @@
 $(document).on('ready', function () {
-	$(".galeria-01").slick({
-		dots: false,
-		infinite: true,
-		speed: 500,
-		autoplay: true,
-		autoplaySpeed: 5000,
-	});
-	$(".galeria-02").slick({
-		dots: false,
-		infinite: true,
-		speed: 500,
-		autoplay: true,
-		autoplaySpeed: 5000,
-	});
+    $(".galeria-01").slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 5000,
+    });
+    $(".galeria-02").slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 5000,
+    });
 });
 
 $(function () {
-	$('.nome').clear();
-	$('.email').clear();
-	$('.phone').clear();
-	$('.msg').clear();
+    $('.nome').clear();
+    $('.email').clear();
+    $('.msg').clear();
 
-	$('.btn_enviar').on('click', function () {
-		var n, e, t, m, s;
-		var msg = "";
-		n = $('.nome').val();
-		e = $('.email').val();
-		t = $('.phone').val();
-		m = $('.msg').val();
-	});
+    $('.btn_enviar').on('click', function () {
+        var n, e, m;
+        var msg = "";
+        n = $('.nome').val();
+        e = $('.email').val();
+        m = $('.msg').val();
+    });
 });
 
 // Script Scroll OnPage
@@ -42,12 +40,9 @@ $(document).ready(function () {
         })
         $(this).addClass('active');
         var target = this.hash,
-            menu = target;
-        $target = $(target);
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 500, 'swing', function () {
-            window.location.hash = target;
+            $target = $(target);
+        $('html, body').stop().animate({ scrollTop: $target.offset().top - 65 }, 500, 'swing', function () {
+            // window.location.hash = target;
             $(document).on("scroll", onScroll);
         });
     });
@@ -66,3 +61,16 @@ function onScroll(event) {
         }
     });
 }
+
+$(document).on('ready', function () {
+    $('.navbar-collapse a').click(function () {
+        $(".navbar-collapse").collapse('hide');
+    });
+});
+
+$(document).ready(function () {
+	$("#close").click(function () {
+		$("#aviso").hide();
+		window.location.href = "http://spicytracking.com.br/azeitebatalha"
+	});
+});

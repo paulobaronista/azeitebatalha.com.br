@@ -9,33 +9,31 @@ class Contato extends CI_Controller{
     public function index(){
         $data['title'] = 'Azeite Batalha';
         $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
-        $data['keywords'] = 'keywords';
+        $data['keywords'] = '';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
         if($this->input->post('enviar_email') == "enviar"){
             $nome = $this->input->post('nome');
             $email = $this->input->post('email');
-            $telefone = $this->input->post('phone');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('Contato enviado pelo site www.landingpagemodelo.com.br');
+            $assunto = utf8_decode('Contato enviado pelo site www.azeitebatalha.com.br');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@landingpagemodelo.com.br","$nome"); //senha: xxxxxx
-            $this->email->to('contato@landingpagemodelo.com.br');
-            $this->email->cc('landingpagemodelo.com, paulobaronista@gmail.com');
+            $this->email->from("contato@azeitebatalha.com.br","Azeite Batalha");
+            $this->email->to('contato@azeitebatalha.com.br');
+            $this->email->cc('paulobaronista@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
             <head> <meta http-equiv='content-type' content='text/html;charset=UTF-8' /> </head><body>
             Nome:		{$nome}<br/>
                 E-mail:		{$email}<br/>
-                    Telefone:	{$telefone}<br/>
-                        Mensagem:	{$mensagem}<br/>
-                            </body></html>");
+                    Pedido:	{$mensagem}<br/>
+                        </body></html>");
 
             if($this->email->send()){
                 redirect('contato/obrigado');
@@ -56,7 +54,7 @@ class Contato extends CI_Controller{
     public function obrigado(){
         $data['title'] = 'Azeite Batalha';
         $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
-        $data['keywords'] = 'keywords';
+        $data['keywords'] = '';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -70,7 +68,7 @@ class Contato extends CI_Controller{
     public function fail(){
         $data['title'] = 'Azeite Batalha';
         $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
-        $data['keywords'] = 'keywords';
+        $data['keywords'] = '';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);

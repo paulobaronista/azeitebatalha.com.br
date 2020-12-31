@@ -9,7 +9,7 @@ class Home extends CI_Controller{
     public function index(){
         $data['title'] = 'Azeite Batalha';
         $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
-        $data['keywords'] = 'keywords';
+        $data['keywords'] = '';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
         $this->load->view('html_header', $data);
