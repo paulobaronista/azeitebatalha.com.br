@@ -18,7 +18,7 @@
     <link rel="image_src" href="<?= base_url(); ?>assets/images/compartilhamento.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <meta name="theme-color" content="#5d1580" />
+    <meta name="theme-color" content="#aca727" />
     <!-- property (faz funcionar no linkedin) -->
     <meta property="og:title" content="Azeite Batalha" />
     <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />

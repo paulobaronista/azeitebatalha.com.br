@@ -1,3 +1,7 @@
+.dt-home {
+  padding-top: 58px;
+}
+
 .galeria-home {
   background: url(../images/bg-galeria-home.jpg) no-repeat;
   background-size: cover;
@@ -10,7 +14,111 @@
   border: solid 6px #000;
 }
 
+.video {
+  background-color: #aca727;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.video p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #5a6223;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.paralelo-31 {
+  background-color: #000000;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.paralelo-31 p {
+  font-family: 'Rosellinda Alyamore';
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+}
+
+.paralelo-31 .txt1 {
+  font-size: 70px;
+  line-height: 50px;
+}
+
+.paralelo-31 .txt2 {
+  font-size: 50px;
+  line-height: 40px;
+}
+
+.sobre-nos {
+  background-color: #5a6223;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+
+.sobre-nos p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #c1c36a;
+  margin-bottom: 15px;
+}
+
+.sobre-nos p span {
+  color: #fff;
+}
+
+.sobre-nos img {
+  margin-bottom: 30px;
+}
+
 /* Extra Small */
+@media (max-width: 767px) {
+  .dt-home {
+    padding-top: 57px;
+  }
+  .galeria-home {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .video {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .video p {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .paralelo-31 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .paralelo-31 .txt1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .paralelo-31 .txt2 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .sobre-nos {
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+  .sobre-nos p {
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  .sobre-nos img {
+    margin-bottom: 15px;
+    max-width: 60%;
+  }
+}
+
 /* Small */
 /* Medium */
 /* Large */

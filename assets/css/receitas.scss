@@ -1,0 +1,60 @@
+.receitas-txt {
+    background-color: #5a6223;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    p {
+        font-family: 'Rosellinda Alyamore';
+        font-weight: normal;
+        font-style: normal;
+        color: #fff;
+        font-size: 60px;
+        line-height: 50px;
+    }
+}
+
+.galeria-receitas {
+    background: url(../images/bg-receita.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding-bottom: 60px;
+    padding-top: 40px;
+
+    .img-galeria {
+        border: solid 6px #000;
+    }
+
+    .receita {
+        margin-top: 40px;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .receitas-txt {
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        p {
+            font-size: 40px;
+            line-height: 30px;
+        }
+    }
+    .galeria-receitas {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    
+        .receita {
+            margin-top: 10px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

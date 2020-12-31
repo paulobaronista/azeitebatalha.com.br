@@ -8,6 +8,33 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url("../fonts/HelveticaNeueMedium.eot");
+  src: url("../fonts/HelveticaNeueMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueMedium.woff2") format("woff2"), url("../fonts/HelveticaNeueMedium.woff") format("woff"), url("../fonts/HelveticaNeueMedium.ttf") format("truetype"), url("../fonts/HelveticaNeueMedium.svg#HelveticaNeueMedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../fonts/HelveticaNeue-Bold.eot");
+  src: url("../fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeue-Bold.woff2") format("woff2"), url("../fonts/HelveticaNeue-Bold.woff") format("woff"), url("../fonts/HelveticaNeue-Bold.ttf") format("truetype"), url("../fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url("../fonts/HelveticaNeueLight.eot");
+  src: url("../fonts/HelveticaNeueLight.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLight.woff2") format("woff2"), url("../fonts/HelveticaNeueLight.woff") format("woff"), url("../fonts/HelveticaNeueLight.ttf") format("truetype"), url("../fonts/HelveticaNeueLight.svg#HelveticaNeueLight") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 .margin-top {
   margin-top: 10px;
 }
@@ -325,6 +352,10 @@ p {
 
 /* Medium */
 /* Large */
+.dt-home {
+  padding-top: 58px;
+}
+
 .galeria-home {
   background: url(../images/bg-galeria-home.jpg) no-repeat;
   background-size: cover;
@@ -335,6 +366,232 @@ p {
 
 .galeria-home .img-responsive {
   border: solid 6px #000;
+}
+
+.video {
+  background-color: #aca727;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.video p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #5a6223;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.paralelo-31 {
+  background-color: #000000;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.paralelo-31 p {
+  font-family: 'Rosellinda Alyamore';
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+}
+
+.paralelo-31 .txt1 {
+  font-size: 70px;
+  line-height: 50px;
+}
+
+.paralelo-31 .txt2 {
+  font-size: 50px;
+  line-height: 40px;
+}
+
+.sobre-nos {
+  background-color: #5a6223;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+
+.sobre-nos p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #c1c36a;
+  margin-bottom: 15px;
+}
+
+.sobre-nos p span {
+  color: #fff;
+}
+
+.sobre-nos img {
+  margin-bottom: 30px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .dt-home {
+    padding-top: 57px;
+  }
+  .galeria-home {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .video {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .video p {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .paralelo-31 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .paralelo-31 .txt1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .paralelo-31 .txt2 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .sobre-nos {
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+  .sobre-nos p {
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  .sobre-nos img {
+    margin-bottom: 15px;
+    max-width: 60%;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.receitas-txt {
+  background-color: #5a6223;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.receitas-txt p {
+  font-family: 'Rosellinda Alyamore';
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 60px;
+  line-height: 50px;
+}
+
+.galeria-receitas {
+  background: url(../images/bg-receita.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+
+.galeria-receitas .img-galeria {
+  border: solid 6px #000;
+}
+
+.galeria-receitas .receita {
+  margin-top: 40px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .receitas-txt {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .receitas-txt p {
+    font-size: 40px;
+    line-height: 30px;
+  }
+  .galeria-receitas {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .galeria-receitas .receita {
+    margin-top: 10px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.premios {
+  background: url(../images/bg-premios.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.premios p {
+  font-family: 'Rosellinda Alyamore';
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  font-size: 70px;
+  line-height: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.premios .info-premios {
+  background-color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.premios .selos {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .premios {
+    background: url(../images/bg-premios.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+  .premios p {
+    font-size: 40px;
+    line-height: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .premios .selos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.azeites-txt {
+  background-color: #a8a62b;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.azeites-txt p {
+  font-family: 'Rosellinda Alyamore';
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 50px;
+  line-height: 40px;
 }
 
 /* Extra Small */
@@ -362,7 +619,7 @@ p {
 
 .contato .txt-1,
 .contato .txt-2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'HelveticaNeue';
   font-weight: 500;
   color: #ffffff;
   text-transform: uppercase;
@@ -425,7 +682,7 @@ p {
 }
 
 .contato .group-form .btn_enviar {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'HelveticaNeue';
   font-weight: 500;
   padding: 8px 20px;
   margin-bottom: 0;
@@ -478,7 +735,7 @@ footer p {
 }
 
 footer p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'HelveticaNeue';
   font-weight: 300;
   color: #ffffff;
   font-size: 11px;

@@ -19,7 +19,7 @@
 
 .contato .txt-1,
 .contato .txt-2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'HelveticaNeue';
   font-weight: 500;
   color: #ffffff;
   text-transform: uppercase;
@@ -82,7 +82,7 @@
 }
 
 .contato .group-form .btn_enviar {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'HelveticaNeue';
   font-weight: 500;
   padding: 8px 20px;
   margin-bottom: 0;

@@ -1,0 +1,56 @@
+.premios {
+    background: url(../images/bg-premios.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+    p {
+        font-family: 'Rosellinda Alyamore';
+        font-weight: normal;
+        font-style: normal;
+        color: #000000;
+        font-size: 70px;
+        line-height: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .info-premios {
+        background-color: #000000;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .selos {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .premios {
+        background: url(../images/bg-premios.jpg) no-repeat;
+        background-size: cover;
+        background-position: center top;
+
+        p {
+            font-size: 40px;
+            line-height: 30px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .selos {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

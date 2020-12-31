@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,gBAAgB,EAAE,OAAO;EACzB,cAAc,EAAE,IAAI;EACpB,WAAW,EAAE,IAAI;CAUpB;;AAbD,AAKI,YALQ,CAKR,CAAC,CAAC;EACE,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CACpB;;AAML,iBAAiB;AAGjB,WAAW;AAGX,YAAY;AAGZ,WAAW",
+    "sources": [
+        "azeites.scss"
+    ],
+    "names": [],
+    "file": "azeites.css"
+}

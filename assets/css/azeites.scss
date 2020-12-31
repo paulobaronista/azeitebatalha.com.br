@@ -1,0 +1,29 @@
+.azeites-txt {
+    background-color: #a8a62b;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    p {
+        font-family: 'Rosellinda Alyamore';
+        font-weight: normal;
+        font-style: normal;
+        color: #fff;
+        font-size: 50px;
+        line-height: 40px;
+    }
+}
+
+
+
+
+/* Extra Small */
+@media(max-width:767px) {}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}
