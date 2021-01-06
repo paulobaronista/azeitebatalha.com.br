@@ -26,7 +26,7 @@
     display: block;
 
     width: 33px;
-    height: 33px;
+    height: 70px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -38,7 +38,7 @@
     border: none;
     outline: none;
     background: transparent;
-    z-index: 100;
+    z-index: 300;
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
@@ -64,8 +64,30 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.home .slick-next {
+    right: 10px;
+}
+.home .slick-prev {
+    left: 10px;
+}
+.home .slick-dots {
+    bottom: 6%;
+}
+.home .slick-dots li button::before {
+    opacity: 1;
+    content: "";
+    color: #fff;
+    background-color: #fff;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.home .slick-dots li.slick-active button::before {
+    opacity: 1;
+    background-color: #bec565;
+}
 .slick-prev {
-    left: -45px;
+    left: -135px;
     background: url(../images/seta-left.png) no-repeat;
     background-size: 100%;
     background-position: center center;
@@ -82,7 +104,7 @@
 }
 
 .slick-next {
-    right: -45px;
+    right: -135px;
     background: url(../images/seta-right.png) no-repeat;
     background-size: 100%;
     background-position: center center;
@@ -191,6 +213,9 @@
     }
     .slick-prev {
         left: 10px;
+    }
+    .home .slick-dots {
+        display: none !important;
     }
 }
 /* Small */

@@ -1,0 +1,84 @@
+.paralelo {
+  background: url(../images/bg-paralelo.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.paralelo h4 {
+  font-family: 'Rosellinda Alyamore';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 55px;
+  margin-bottom: 30px;
+}
+
+.paralelo p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.paralelo .slick-slide img {
+  border: solid 6px #000;
+}
+
+.paralelo .oliva-left {
+  top: 19%;
+  left: -5.5%;
+  position: absolute;
+  z-index: 100;
+}
+
+.paralelo .oliva-right {
+  top: 20%;
+  right: -7.5%;
+  position: absolute;
+  z-index: 100;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .paralelo {
+    background: url(../images/bg-paralelo-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .paralelo h4 {
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  .paralelo p {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 10px;
+  }
+  .paralelo .slick-slide img {
+    border: solid 4px #000;
+  }
+}
+
+/* Small */
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .paralelo .oliva-left {
+    top: 19%;
+    left: -7%;
+    position: absolute;
+    z-index: 100;
+  }
+  .paralelo .oliva-right {
+    right: -9%;
+  }
+}
+
+/* Large */
+/*# sourceMappingURL=paralelo.css.map */

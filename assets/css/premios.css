@@ -1,47 +1,65 @@
 .premios {
   background: url(../images/bg-premios.jpg) no-repeat;
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
-.premios p {
+.premios h4 {
   font-family: 'Rosellinda Alyamore';
   font-weight: normal;
   font-style: normal;
-  color: #000000;
-  font-size: 70px;
-  line-height: 50px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  color: #ffffff;
+  font-size: 80px;
+  line-height: 60px;
+  text-align: right;
+  margin-bottom: 50px;
 }
 
-.premios .info-premios {
-  background-color: #000000;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.premios p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: right;
 }
 
-.premios .selos {
-  padding-top: 40px;
-  padding-bottom: 40px;
+.premios p span {
+  font-weight: 800;
+}
+
+.premios img {
+  float: right;
+  margin-bottom: 60px;
 }
 
 /* Extra Small */
 @media (max-width: 767px) {
   .premios {
-    background: url(../images/bg-premios.jpg) no-repeat;
+    background: url(../images/bg-premios-mobile.jpg) no-repeat;
     background-size: cover;
-    background-position: center top;
+    background-position: center center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .premios h4 {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
   }
   .premios p {
-    font-size: 40px;
-    line-height: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: right;
   }
-  .premios .selos {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  .premios p br {
+    display: none;
+  }
+  .premios img {
+    float: right;
+    margin-bottom: 20px;
   }
 }
 

@@ -1,0 +1,145 @@
+.produtos {
+    padding-top: 58px;
+    padding-bottom: 158px;
+
+    h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 17px;
+        margin: 0;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #8d8d8d;
+        margin-top: 15px;
+    }
+
+    a {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 13px;
+        text-transform: uppercase;
+        color: #8d8d8d;
+        border: solid 1px #8d8d8d;
+        padding: 10px 10px;
+        display: table;
+        margin-top: 30px;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .box {
+        border: solid 1px #ddd;
+        padding: 15px 15px 0;
+
+        img {
+            margin-bottom: -100px;
+        }
+    }
+
+    .frutado {
+        border: solid 1px #00e300;
+
+        h4 {
+            color: #00e300;
+        }
+
+        img {
+            margin-top: 10px;
+        }
+    }
+
+    .intenso {
+        border: solid 1px #ff6500;
+
+        h4 {
+            color: #ff6500;
+        }
+
+        img {
+            margin-top: 25px;
+        }
+    }
+
+    .black {
+        border: solid 1px #555353;
+
+        a {
+            margin-top: 50px;
+        }
+
+        h4 {
+            color: #555353;
+        }
+
+        img {
+            margin-top: 93px;
+        }
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .produtos {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        p {
+            margin-top: 10px;
+        }
+        a {
+            margin-top: 10px;
+        }
+
+        .box {
+            margin-bottom: 20px;
+            padding: 20px 15px;
+
+            img {
+                margin-bottom: 0px;
+                max-width: 70%;
+            }
+        }
+
+        .frutado {
+
+            img {
+                margin-top: 10px;
+            }
+        }
+
+        .intenso {
+
+            img {
+                margin-top: 10px;
+            }
+        }
+
+        .black {
+
+            a {
+                margin-top: 10px;
+            }
+
+            img {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

@@ -1,12 +1,12 @@
 $(document).on('ready', function () {
-    $(".galeria-01").slick({
-        dots: false,
+    $(".glr-home").slick({
+        dots: true,
         infinite: true,
         speed: 500,
         autoplay: true,
         autoplaySpeed: 5000,
     });
-    $(".galeria-02").slick({
+    $(".galeria-01").slick({
         dots: false,
         infinite: true,
         speed: 500,
@@ -15,17 +15,15 @@ $(document).on('ready', function () {
     });
 });
 
-$(function () {
-    $('.nome').clear();
-    $('.email').clear();
-    $('.msg').clear();
-
-    $('.btn_enviar').on('click', function () {
-        var n, e, m;
-        var msg = "";
-        n = $('.nome').val();
-        e = $('.email').val();
-        m = $('.msg').val();
+$(document).ready(function () {
+    var scroll_pos = 0;
+    $(document).scroll(function () {
+        scroll_pos = $(this).scrollTop();
+        if (scroll_pos > 100) {
+            $(".menu").css('background-color', '#ffffff');
+        } else {
+            $(".menu").css('background-color', 'transparent');
+        }
     });
 });
 
@@ -41,7 +39,7 @@ $(document).ready(function () {
         $(this).addClass('active');
         var target = this.hash,
             $target = $(target);
-        $('html, body').stop().animate({ scrollTop: $target.offset().top - 65 }, 500, 'swing', function () {
+        $('html, body').stop().animate({ scrollTop: $target.offset().top + 0 }, 500, 'swing', function () {
             // window.location.hash = target;
             $(document).on("scroll", onScroll);
         });
@@ -69,8 +67,22 @@ $(document).on('ready', function () {
 });
 
 $(document).ready(function () {
-	$("#close").click(function () {
-		$("#aviso").hide();
-		window.location.href = "http://spicytracking.com.br/azeitebatalha"
-	});
+    $("#close").click(function () {
+        $("#aviso").hide();
+        window.location.href = "http://spicytracking.com.br/azeitebatalha"
+    });
+});
+
+$(function () {
+    $('.nome').clear();
+    $('.email').clear();
+    $('.msg').clear();
+
+    $('.btn_enviar').on('click', function () {
+        var n, e, m;
+        var msg = "";
+        n = $('.nome').val();
+        e = $('.email').val();
+        m = $('.msg').val();
+    });
 });

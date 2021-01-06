@@ -1,18 +1,24 @@
 @charset "UTF-8";
+.menu.active {
+  background-color: #fff !important;
+}
+
 .menu {
   position: fixed;
   width: 100%;
   float: left;
   top: 0;
   left: 0;
-  z-index: 200;
-  background-color: #000000;
+  z-index: 600;
+  background-color: transparent;
   border-color: transparent;
   border-radius: 0px;
   min-height: auto;
   margin-bottom: 0px;
   padding-top: 7px;
   padding-bottom: 7px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .menu .navbar-collapse,
@@ -23,7 +29,7 @@
 .menu .nav > li > a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  color: #ffffff;
+  color: #000000;
   text-transform: uppercase;
   font-size: 12px;
   line-height: 12px;
@@ -51,7 +57,7 @@
 
 .menu .navbar-nav > li > a:focus,
 .menu .navbar-nav > li > a:hover {
-  color: #aca727;
+  color: #000000;
 }
 
 .menu .redes a {
@@ -64,10 +70,22 @@
 
 /* Extra Small */
 @media (max-width: 767px) {
+  .menu {
+    background-color: transparent !important;
+  }
+  .menu .navbar-brand {
+    margin-left: 5px;
+  }
+  .menu .navbar-nav {
+    background-color: #aca727;
+  }
   .menu .nav > li > a {
     font-size: 12px;
     line-height: 12px;
-    padding-left: 0;
+    padding-left: 10px;
+    color: #fff;
+    margin-bottom: 0px;
+    background: rgba(0, 0, 0, 0.9);
   }
   .menu .nav > li > a::before {
     content: '';
@@ -79,11 +97,14 @@
   }
   .menu .redes a {
     padding: 5px 5px;
+    border: none !important;
+    margin-bottom: 0px !important;
+    background: transparent !important;
   }
   .menu .navbar-toggle {
     margin-top: 3px;
     margin-right: 5px;
-    border-color: #fff;
+    border-color: #000;
     margin-bottom: 0;
   }
   .menu .navbar-collapse {
@@ -92,7 +113,7 @@
             box-shadow: none;
   }
   .menu .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #000;
   }
   .menu .navbar-toggle:focus,
   .menu .navbar-toggle:hover {
