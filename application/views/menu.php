@@ -17,7 +17,7 @@
                         <li><a class="scrollink" href="#produtos">Produtos</a></li>
                         <li><a class="scrollink" href="#sobre-nos">Sobre nós</a></li>
                         <li><a class="scrollink" href="#premios">Prêmios</a></li>
-                        <li><a href="https://azeitebatalha.com.br/loja" target="_blank">Compre aqui</a></li>
+                        <li><a href="http://compras.azeitebatalha.com.br/" target="_blank">Compre aqui</a></li>
                         <li><a class="scrollink fale-conosco" href="#fale-conosco">Fale conosco</a></li>
                         <li class="redes"><a href="https://www.instagram.com/azeitebatalha/" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/insta.png" alt="Instagram"></a></li>
                         <li class="redes"><a href="https://facebook.com/azeitebatalha" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/face.png" alt="Facebook"></a></li>

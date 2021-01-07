@@ -6,8 +6,20 @@
                 <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-01-mobile.jpg" alt="Azeite Batalha">
             </div>
             <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-01.jpg" alt="Azeite Batalha">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-01-mobile.jpg" alt="Azeite Batalha">
+                <a class="scrollink" href="#receitas">
+                    <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-02.jpg" alt="Azeite Batalha">
+                </a>
+                <a class="scrollink" href="#receitas">
+                    <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-02-mobile.jpg" alt="Azeite Batalha">
+                </a>
+            </div>
+            <div>
+                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-03.jpg" alt="Azeite Batalha">
+                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-03-mobile.jpg" alt="Azeite Batalha">
+            </div>
+            <div>
+                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-04.jpg" alt="Azeite Batalha">
+                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-04-mobile.jpg" alt="Azeite Batalha">
             </div>
         </section>
     </div>
@@ -127,7 +139,7 @@
 <div id="premios" class="premios">
     <div class="container">
         <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
                 <h4>Nosso sabor conquistou o mundo.Literalmente.</h4>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
