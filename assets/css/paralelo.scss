@@ -6,22 +6,28 @@
     padding-top: 50px;
     padding-bottom: 40px;
 
-    h4 {
-        font-family: 'Rosellinda Alyamore';
-        font-weight: normal;
-        font-style: normal;
-        font-size: 55px;
-        line-height: 55px;
+    .tt {
         margin-bottom: 30px;
+
+        h4 {
+            font-family: 'Rosellinda Alyamore';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 55px;
+            line-height: 55px;
+            margin-bottom: 10px;
+            margin-top: 0px;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 20px;
+            margin: 0 0 0 0;
+        }
     }
 
-    p {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-        font-size: 13px;
-        line-height: 20px;
-        margin-top: 20px;
-    }
 
     .slick-slide {
         img {
@@ -51,19 +57,21 @@
         background: url(../images/bg-paralelo-mobile.jpg) no-repeat;
         background-size: cover;
         background-position: center center;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
 
-        h4 {
-            font-size: 35px;
-            line-height: 35px;
-            margin-bottom: 20px;
-        }
+        .tt {
+            h4 {
+                font-size: 50px;
+                line-height: 40px;
+                text-align: center;
+            }
 
-        p {
-            font-size: 12px;
-            line-height: 16px;
-            margin-top: 10px;
+            p {
+                font-size: 11px;
+                line-height: 16px;
+                text-align: justify;
+            }
         }
 
         .slick-slide {

@@ -87,7 +87,7 @@
     background-color: #bec565;
 }
 .slick-prev {
-    left: -135px;
+    left: -55px;
     background: url(../images/seta-left.png) no-repeat;
     background-size: 100%;
     background-position: center center;
@@ -104,7 +104,7 @@
 }
 
 .slick-next {
-    right: -135px;
+    right: -55px;
     background: url(../images/seta-right.png) no-repeat;
     background-size: 100%;
     background-position: center center;

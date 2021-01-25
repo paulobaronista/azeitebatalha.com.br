@@ -228,25 +228,73 @@ p {
 .float-box .chat {
     background: url(../images/icone-chat.png) no-repeat right 10px center;
     background-color: rgba(0, 0, 0, 0);
-    background-color:#aca727;
+    background-color: #aca727;
 }
 
 .float-box .car {
     background: url(../images/icone-car.png) no-repeat right 10px center;
     background-color: rgba(0, 0, 0, 0);
-    background-color:#aca727;
+    background-color: #aca727;
 }
 
 .float-box .mail {
     background: url(../images/icone-mail.png) no-repeat right 10px center;
     background-color: rgba(0, 0, 0, 0);
-    background-color:#aca727;
+    background-color: #aca727;
 }
 
 .float-box .whats {
     background: url(../images/icone-zap.png) no-repeat right 10px center;
     background-color: rgba(0, 0, 0, 0);
-    background-color:#aca727;
+    background-color: #aca727;
+}
+
+.cookies {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    height: 100%;
+    top: 0;
+    display: none;
+
+    .box {
+        background-color: #56601d;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: absolute;
+        bottom: 20px;
+
+        p {
+            font-family: 'Proxima Nova Rg';
+            font-weight: 300;
+            font-style: normal;
+            color: #fff;
+            font-size: 12px;
+            line-height: 14px;
+            margin-top: 7px;
+            a {
+                text-decoration: underline;
+                color: #fff;
+            }
+        }
+
+        .btn_cookie {
+            font-family: 'Proxima Nova Rg';
+            font-weight: bold;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 16px;
+            color: #fff;
+            border: 0px solid transparent;
+            border-radius: 50px;
+            padding: 12px 30px;
+            width: 160px;
+            margin-top: 7px;
+            box-shadow: none;
+            background: #bab355;
+        }
+    }
 }
 
 /* Extra Small */
@@ -261,5 +309,19 @@ p {
     .padding-off-mobile {
         padding-left: 0px !important;
         padding-right: 0px !important;
+    }
+
+    .float-box {
+        bottom: 30%;
+    }
+
+    .cookies {
+        .box {
+            padding-top: 10px;
+
+            .btn_cookie {
+                margin-top: 20px;
+            }
+        }
     }
 }

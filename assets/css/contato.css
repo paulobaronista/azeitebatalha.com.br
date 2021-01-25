@@ -100,15 +100,16 @@
 /* Extra Small */
 @media (max-width: 767px) {
   .contato {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .contato .tt {
     padding-bottom: 20px;
   }
   .contato .tt p {
-    font-size: 35px;
-    line-height: 35px;
+    font-size: 50px;
+    line-height: 40px;
+    text-align: center;
   }
   .contato .txt-1 {
     font-size: 14px;

@@ -18,8 +18,8 @@
     p {
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
-        font-size: 14px;
-        line-height: 24px;
+        font-size: 13px;
+        line-height: 20px;
         color: #ffffff;
         text-align: right;
         span {
@@ -38,18 +38,19 @@
         background: url(../images/bg-premios-mobile.jpg) no-repeat;
         background-size: cover;
         background-position: center center;
-        padding-top: 10px;
-        padding-bottom: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     
         h4 {
             font-size: 50px;
             line-height: 50px;
             margin-bottom: 20px;
+            text-align: center;
         }
         p {
-            font-size: 12px;
-            line-height: 22px;
-            text-align: right;
+            font-size: 11px;
+            line-height: 16px;
+            text-align: justify;
             br {
                 display: none;
             }

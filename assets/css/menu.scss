@@ -1,5 +1,5 @@
 .menu.active {
-    background-color: #fff !important;
+    background-color: rgba(255,255,255,0.9);
 }
 .menu {
     position: fixed;
@@ -53,6 +53,9 @@
         height: auto;
         padding: 0;
         margin-left: 0px;
+        img {
+            position: absolute;
+        }
     }
 
     .navbar-nav>li>a:focus,

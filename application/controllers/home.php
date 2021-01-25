@@ -20,6 +20,34 @@ class Home extends CI_Controller{
         $this->load->view('html_footer');
 
     }
+    public function politicadeprivacidade()
+    {
+        $data['title'] = 'Azeite Batalha';
+        $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
+        $data['keywords'] = '';
+        $menu['politicadeprivacidade'] = 'active';
+        $conteudo['pagina_view'] = 'politicadeprivacidade_view';
+        $this->load->view('html_header', $data);
+        $this->load->view('header');
+        $this->load->view('menu', $menu);
+        $this->load->view('conteudo', $conteudo);
+        $this->load->view('rodape');
+        $this->load->view('html_footer');
+    }
+    public function politicadecookies()
+    {
+        $data['title'] = 'Azeite Batalha';
+        $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
+        $data['keywords'] = '';
+        $menu['politicadecookies'] = 'active';
+        $conteudo['pagina_view'] = 'politicadecookies_view';
+        $this->load->view('html_header', $data);
+        $this->load->view('header');
+        $this->load->view('menu', $menu);
+        $this->load->view('conteudo', $conteudo);
+        $this->load->view('rodape');
+        $this->load->view('html_footer');
+    }
 
 }
 

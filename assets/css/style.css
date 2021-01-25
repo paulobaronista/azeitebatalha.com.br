@@ -292,6 +292,56 @@ p {
   background-color: #aca727;
 }
 
+.cookies {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  height: 100%;
+  top: 0;
+  display: none;
+}
+
+.cookies .box {
+  background-color: #56601d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.cookies .box p {
+  font-family: 'Proxima Nova Rg';
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 7px;
+}
+
+.cookies .box p a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.cookies .box .btn_cookie {
+  font-family: 'Proxima Nova Rg';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  border: 0px solid transparent;
+  border-radius: 50px;
+  padding: 12px 30px;
+  width: 160px;
+  margin-top: 7px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: #bab355;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .aviso div {
@@ -302,10 +352,19 @@ p {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
+  .float-box {
+    bottom: 30%;
+  }
+  .cookies .box {
+    padding-top: 10px;
+  }
+  .cookies .box .btn_cookie {
+    margin-top: 20px;
+  }
 }
 
 .menu.active {
-  background-color: #fff !important;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .menu {
@@ -358,6 +417,10 @@ p {
   height: auto;
   padding: 0;
   margin-left: 0px;
+}
+
+.menu .navbar-brand img {
+  position: absolute;
 }
 
 .menu .navbar-nav > li > a:focus,
@@ -611,8 +674,8 @@ p {
     margin-bottom: 10px;
   }
   .receitas p {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 11px;
+    line-height: 16px;
   }
   .receitas p span {
     font-weight: 800;
@@ -659,8 +722,8 @@ p {
 .produtos p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 13px;
+  line-height: 20px;
   color: #8d8d8d;
   margin-top: 15px;
 }
@@ -777,21 +840,26 @@ p {
   padding-bottom: 40px;
 }
 
-.paralelo h4 {
+.paralelo .tt {
+  margin-bottom: 30px;
+}
+
+.paralelo .tt h4 {
   font-family: 'Rosellinda Alyamore';
   font-weight: normal;
   font-style: normal;
   font-size: 55px;
   line-height: 55px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
-.paralelo p {
+.paralelo .tt p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 13px;
   line-height: 20px;
-  margin-top: 20px;
+  margin: 0 0 0 0;
 }
 
 .paralelo .slick-slide img {
@@ -818,18 +886,18 @@ p {
     background: url(../images/bg-paralelo-mobile.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
-  .paralelo h4 {
-    font-size: 35px;
-    line-height: 35px;
-    margin-bottom: 20px;
+  .paralelo .tt h4 {
+    font-size: 50px;
+    line-height: 40px;
+    text-align: center;
   }
-  .paralelo p {
-    font-size: 12px;
+  .paralelo .tt p {
+    font-size: 11px;
     line-height: 16px;
-    margin-top: 10px;
+    text-align: justify;
   }
   .paralelo .slick-slide img {
     border: solid 4px #000;
@@ -873,8 +941,8 @@ p {
 .premios p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 13px;
+  line-height: 20px;
   color: #ffffff;
   text-align: right;
 }
@@ -894,18 +962,19 @@ p {
     background: url(../images/bg-premios-mobile.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .premios h4 {
     font-size: 50px;
     line-height: 50px;
     margin-bottom: 20px;
+    text-align: center;
   }
   .premios p {
-    font-size: 12px;
-    line-height: 22px;
-    text-align: right;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: justify;
   }
   .premios p br {
     display: none;
@@ -1021,15 +1090,16 @@ p {
 /* Extra Small */
 @media (max-width: 767px) {
   .contato {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .contato .tt {
     padding-bottom: 20px;
   }
   .contato .tt p {
-    font-size: 35px;
-    line-height: 35px;
+    font-size: 50px;
+    line-height: 40px;
+    text-align: center;
   }
   .contato .txt-1 {
     font-size: 14px;
@@ -1064,6 +1134,46 @@ footer p {
   padding-left: 20px;
 }
 
+footer h6 {
+  font-family: 'HelveticaNeue';
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 11px;
+  padding-left: 15px;
+}
+
+footer .navbar-nav {
+  margin: 20px 0 0 0;
+}
+
+footer .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'HelveticaNeue';
+  font-weight: 300;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 14px;
+  border-right: 1px solid #ffffff;
+}
+
+footer .navbar-nav li > a:focus,
+footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   footer {
@@ -1072,6 +1182,70 @@ footer p {
   footer .img-responsive {
     max-width: 40%;
     margin-bottom: 10px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.politica {
+  margin-top: 68px;
+  padding-bottom: 50px;
+}
+
+.politica .politica-tt {
+  background-color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.politica .politica-tt h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.politica .politica-info {
+  margin-top: 30px;
+}
+
+.politica .politica-info p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.politica .politica-info p a {
+  color: #EC2c27;
+  text-decoration: underline;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .politica {
+    margin-top: 68px;
+    padding-bottom: 20px;
+  }
+  .politica .politica-tt h3 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .politica .politica-info {
+    margin-top: 20px;
+  }
+  .politica .politica-info p {
+    font-size: 13px;
+    line-height: 20px;
   }
 }
 
