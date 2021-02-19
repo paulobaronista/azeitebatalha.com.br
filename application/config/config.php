@@ -12,7 +12,7 @@
  |
  | If this is not set then CodeIgniter will guess the protocol, domain and
  | path to your installation.
- |
+ 
  */
 $root = "http://".$_SERVER['HTTP_HOST'];
 $root .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);

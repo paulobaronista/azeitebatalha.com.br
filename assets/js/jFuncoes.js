@@ -93,7 +93,7 @@ $(document).on('ready', function () {
 $(document).ready(function () {
     $("#close").click(function () {
         $("#aviso").hide();
-        window.location.href = "http://spicytracking.com.br/azeitebatalha"
+        window.location.href = "https://azeitebatalha.com.br/"
     });
 });
 

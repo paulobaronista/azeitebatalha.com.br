@@ -9,7 +9,7 @@ class Contato extends CI_Controller{
     public function index(){
         $data['title'] = 'Azeite Batalha';
         $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
-        $data['keywords'] = '';
+        $data['keywords'] = 'Azeite, Batalha, Oliva, Brasileiro, considerado, melhores, Azeites, do mundo, Produzido, Brasil, premiado, exterior';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -25,7 +25,7 @@ class Contato extends CI_Controller{
 
             $this->email->from("contato@azeitebatalha.com.br","Azeite Batalha");
             $this->email->to('contato@azeitebatalha.com.br');
-            $this->email->cc('paulobaronista@gmail.com');
+            $this->email->cc('renata@spicycomm.com.br, paulobaronista@gmail.com, site@azeitebatalha.com.br');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -54,7 +54,7 @@ class Contato extends CI_Controller{
     public function obrigado(){
         $data['title'] = 'Azeite Batalha';
         $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
-        $data['keywords'] = '';
+        $data['keywords'] = 'Azeite, Batalha, Oliva, Brasileiro, considerado, melhores, Azeites, do mundo, Produzido, Brasil, premiado, exterior';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -68,7 +68,7 @@ class Contato extends CI_Controller{
     public function fail(){
         $data['title'] = 'Azeite Batalha';
         $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
-        $data['keywords'] = '';
+        $data['keywords'] = 'Azeite, Batalha, Oliva, Brasileiro, considerado, melhores, Azeites, do mundo, Produzido, Brasil, premiado, exterior';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);

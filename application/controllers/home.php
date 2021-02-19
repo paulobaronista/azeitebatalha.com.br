@@ -9,7 +9,7 @@ class Home extends CI_Controller{
     public function index(){
         $data['title'] = 'Azeite Batalha';
         $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
-        $data['keywords'] = '';
+        $data['keywords'] = 'Azeite, Batalha, Oliva, Brasileiro, considerado, melhores, Azeites, do mundo, Produzido, Brasil, premiado, exterior';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
         $this->load->view('html_header', $data);
@@ -24,7 +24,7 @@ class Home extends CI_Controller{
     {
         $data['title'] = 'Azeite Batalha';
         $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
-        $data['keywords'] = '';
+        $data['keywords'] = 'Azeite, Batalha, Oliva, Brasileiro, considerado, melhores, Azeites, do mundo, Produzido, Brasil, premiado, exterior';
         $menu['politicadeprivacidade'] = 'active';
         $conteudo['pagina_view'] = 'politicadeprivacidade_view';
         $this->load->view('html_header', $data);
@@ -38,7 +38,7 @@ class Home extends CI_Controller{
     {
         $data['title'] = 'Azeite Batalha';
         $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
-        $data['keywords'] = '';
+        $data['keywords'] = 'Azeite, Batalha, Oliva, Brasileiro, considerado, melhores, Azeites, do mundo, Produzido, Brasil, premiado, exterior';
         $menu['politicadecookies'] = 'active';
         $conteudo['pagina_view'] = 'politicadecookies_view';
         $this->load->view('html_header', $data);

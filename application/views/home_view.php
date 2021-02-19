@@ -62,7 +62,7 @@
                     <h4>AZEITE BATALHA FRUTADO</h4>
                     <p>Suavemente frutado e com toques maduros, apresenta aromas herbáceos de grama cortada e tomate. Elaborado essencialmente com azeitonas arbequina, recebe uma pequena adição de outras variedades, como arbosana, picual e frantoio.
                         Harmoniza com pratos suaves, como saladas de folhas verdes, peixes delicados, carnes brancas, queijos leves, frutas e sobremesas.</p>
-                    <a href="">COMPRAR</a>
+                    <a href="http://compras.azeitebatalha.com.br/produtos/azeite-batalha-safra-2020-frutado-500ml/" target="_blank">COMPRAR</a>
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/frutado.png" alt="Azeite Batalha Frutado">
                 </div>
             </div>
@@ -72,7 +72,7 @@
                     <p>Intensamente frutado, com notas harmônicas de manjericão e salsa.
                         Sua picância e amargor são marcantes e equilibrados, e conferem uma experiência inesquecível. Elaborado com azeitonas de sabor mais acentuado, como a picual e frantoio, entre outras variedades. Harmoniza com pratos como bacalhau, paella, cordeiro, salada de folhas amargas e queijos maduros.
                     </p>
-                    <a href="">COMPRAR</a>
+                    <a href="http://compras.azeitebatalha.com.br/produtos/azeite-batalha-safra-2020-intenso-500ml/" target="_blank">COMPRAR</a>
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/intenso.png" alt="Azeite Batalha Intenso">
                 </div>
             </div>
@@ -85,7 +85,7 @@
                         com pratos como crustáceos, carpaccio de carne ou atum e risoto de cogumelos,
                         entre outras possibilidades.
                     </p>
-                    <a href="">COMPRAR</a>
+                    <a href="http://compras.azeitebatalha.com.br/produtos/azeite-batalha-safra-2020-black-250ml/" target="_blank">COMPRAR</a>
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/black.png" alt="Azeite Batalha Black">
                 </div>
             </div>
@@ -145,7 +145,7 @@
                     o purê em fogo baixo e sirva com o bacalhau,<br>
                     finalizando com um fio de azeite Batalha Extra Virgem.
                 </p>
-                <a href="#">VER MAIS RECEITAS</a>
+                <!-- <a href="#">VER MAIS RECEITAS</a> -->
             </div>
         </div>
     </div>
@@ -179,9 +179,6 @@
                         </div>
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/AzeiteBatalha_Paralelo_Foto02_1000x600px.jpg" alt="Azeite Batalha Paralelo">
-                        </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/AzeiteBatalha_Paralelo_Foto03_1000x600px.jpg" alt="Azeite Batalha Paralelo">
                         </div>
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/AzeiteBatalha_Paralelo_Foto04_1000x600px.jpg" alt="Azeite Batalha Paralelo">
@@ -224,6 +221,18 @@
                         </div>
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/AzeiteBatalha_Paralelo_Foto17_1000x600px.jpg" alt="Azeite Batalha Paralelo">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/AzeiteBatalha_Paralelo_Foto18_1000x600px.jpg" alt="Azeite Batalha Paralelo">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/AzeiteBatalha_Paralelo_Foto19_1000x600px.jpg" alt="Azeite Batalha Paralelo">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/AzeiteBatalha_Paralelo_Foto20_1000x600px.jpg" alt="Azeite Batalha Paralelo">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/AzeiteBatalha_Paralelo_Foto21_1000x600px.jpg" alt="Azeite Batalha Paralelo">
                         </div>
                     </section>
                     <!--<img class="oliva-right visible-md visible-lg" src="<?= base_url(); ?>assets/images/oliva-right.png" alt="Oliva">-->
