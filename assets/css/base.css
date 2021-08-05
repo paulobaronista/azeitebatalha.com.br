@@ -305,6 +305,38 @@ p {
   background: #bab355;
 }
 
+.modalPascoa {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalPascoa .modal-content {
+  background-color: #000;
+  border: 0px solid transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.modalPascoa .modal-body {
+  padding: 8px;
+}
+
+.modalPascoa .close {
+  font-size: 27px;
+  color: #fff;
+  text-shadow: none;
+  opacity: 1;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  z-index: 100;
+}
+
+@media (min-width: 768px) {
+  .modalPascoa .modal-dialog {
+    margin: 6% auto 0;
+  }
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .aviso div {
@@ -323,6 +355,13 @@ p {
   }
   .cookies .box .btn_cookie {
     margin-top: 20px;
+  }
+  .modalPascoa .modal-dialog {
+    margin: 25% auto 0;
+  }
+  .modalPascoa .close {
+    top: -30px;
+    right: 5px;
   }
 }
 /*# sourceMappingURL=base.css.map */

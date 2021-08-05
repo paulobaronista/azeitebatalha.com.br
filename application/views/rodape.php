@@ -14,11 +14,18 @@
                     <li><a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições de Uso do Site</a></li>
                 </ul>
             </div>
-            <!-- <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 padding-off margin-top-10">
-                <h6>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero earum omnis iste quam rerum exercitationem harum labore! Sunt quam tempora quia quaerat asperiores? Saepe assumenda, expedita eaque tempore cum necessitatibus.
-                </h6>
-            </div> -->
         </div>
     </div>
 </footer>
+
+<!-- Modal Pascoa -->
+<!-- <div class="modal fade modalPascoa" id="modalPascoa" tabindex="-1" role="dialog" aria-labelledby="modalPascoaLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <div class="modal-body">
+                <img class="img-responsive center-blocks" src="<?= base_url(); ?>assets/images/precos-especiais.gif" alt="Azeite Batalha">
+            </div>
+        </div>
+    </div>
+</div> -->

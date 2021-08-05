@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: center center;
     padding-top: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 
     h4 {
         font-family: 'Rosellinda Alyamore';
@@ -15,17 +15,21 @@
         text-align: right;
         margin-bottom: 50px;
     }
+
     p {
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
-        font-size: 13px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 26px;
         color: #ffffff;
         text-align: right;
+
         span {
-            font-weight: 800;  
+            font-weight: 800;
+            font-size: 18px;
         }
     }
+
     img {
         float: right;
         margin-bottom: 60px;
@@ -40,21 +44,28 @@
         background-position: center center;
         padding-top: 30px;
         padding-bottom: 30px;
-    
+
         h4 {
             font-size: 50px;
             line-height: 50px;
             margin-bottom: 20px;
             text-align: center;
         }
+
         p {
             font-size: 11px;
             line-height: 16px;
             text-align: justify;
+
+            span {
+                font-size: 13px;
+            }
+
             br {
                 display: none;
             }
         }
+
         img {
             float: right;
             margin-bottom: 20px;

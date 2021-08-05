@@ -342,6 +342,38 @@ p {
   background: #bab355;
 }
 
+.modalPascoa {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalPascoa .modal-content {
+  background-color: #000;
+  border: 0px solid transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.modalPascoa .modal-body {
+  padding: 8px;
+}
+
+.modalPascoa .close {
+  font-size: 27px;
+  color: #fff;
+  text-shadow: none;
+  opacity: 1;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  z-index: 100;
+}
+
+@media (min-width: 768px) {
+  .modalPascoa .modal-dialog {
+    margin: 6% auto 0;
+  }
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .aviso div {
@@ -360,6 +392,13 @@ p {
   }
   .cookies .box .btn_cookie {
     margin-top: 20px;
+  }
+  .modalPascoa .modal-dialog {
+    margin: 25% auto 0;
+  }
+  .modalPascoa .close {
+    top: -30px;
+    right: 5px;
   }
 }
 
@@ -835,7 +874,6 @@ p {
   background: url(../images/bg-paralelo.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
-  color: #fff;
   padding-top: 50px;
   padding-bottom: 40px;
 }
@@ -852,6 +890,7 @@ p {
   line-height: 55px;
   margin-bottom: 10px;
   margin-top: 0px;
+  color: #364213;
 }
 
 .paralelo .tt p {
@@ -860,6 +899,7 @@ p {
   font-size: 13px;
   line-height: 20px;
   margin: 0 0 0 0;
+  color: #000000;
 }
 
 .paralelo .slick-slide img {
@@ -924,7 +964,7 @@ p {
   background-size: cover;
   background-position: center center;
   padding-top: 40px;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 .premios h4 {
@@ -941,14 +981,15 @@ p {
 .premios p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 26px;
   color: #ffffff;
   text-align: right;
 }
 
 .premios p span {
   font-weight: 800;
+  font-size: 18px;
 }
 
 .premios img {
@@ -975,6 +1016,9 @@ p {
     font-size: 11px;
     line-height: 16px;
     text-align: justify;
+  }
+  .premios p span {
+    font-size: 13px;
   }
   .premios p br {
     display: none;

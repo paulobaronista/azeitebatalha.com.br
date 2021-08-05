@@ -126,8 +126,6 @@
     margin-top: 400px;
 }
 
-body {}
-
 .padding-off {
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -273,6 +271,7 @@ p {
             font-size: 12px;
             line-height: 14px;
             margin-top: 7px;
+
             a {
                 text-decoration: underline;
                 color: #fff;
@@ -296,6 +295,40 @@ p {
         }
     }
 }
+
+.modalPascoa {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .modal-content {
+        background-color: #000;
+        border: 0px solid transparent;
+        box-shadow: none;
+    }
+
+    .modal-body {
+        padding: 8px;
+    }
+
+    .close {
+        font-size: 27px;
+        color: #fff;
+        text-shadow: none;
+        opacity: 1;
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        z-index: 100;
+    }
+}
+
+@media (min-width: 768px) {
+    .modalPascoa {
+        .modal-dialog {
+            margin: 6% auto 0;
+        }
+    }
+}
+
 
 /* Extra Small */
 @media(max-width:767px) {
@@ -322,6 +355,16 @@ p {
             .btn_cookie {
                 margin-top: 20px;
             }
+        }
+    }
+
+    .modalPascoa {
+        .modal-dialog {
+            margin: 25% auto 0;
+        }
+        .close {
+            top: -30px;
+            right: 5px;
         }
     }
 }

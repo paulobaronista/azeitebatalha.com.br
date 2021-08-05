@@ -4,28 +4,32 @@ $(document).on('ready', function () {
         infinite: true,
         speed: 500,
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 20000,
     });
     $(".galeria-01").slick({
         dots: false,
         infinite: true,
         speed: 500,
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 8000,
     });
 });
 
 $(document).ready(function () {
-	$('#cookies').show();
-	if (window.localStorage.getItem('accept_cookies')) {
-		$('#cookies').hide();
-		return false;
-	}
-	$(".btn_cookie").click(function () {
-		window.localStorage.setItem('accept_cookies', true);
-		$('#cookies').hide();
-		return false;
-	});
+    $('#modalPascoa').modal();
+});
+
+$(document).ready(function () {
+    $('#cookies').show();
+    if (window.localStorage.getItem('accept_cookies')) {
+        $('#cookies').hide();
+        return false;
+    }
+    $(".btn_cookie").click(function () {
+        window.localStorage.setItem('accept_cookies', true);
+        $('#cookies').hide();
+        return false;
+    });
 });
 
 // Script Scroll OnPage
