@@ -9,19 +9,18 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?php echo base_url(); ?>#home"><img src="<?= base_url(); ?>assets/images/logo.png" alt="Batalha"></a>
+                    <a class="navbar-brand" href="https://www.azeitebatalha.com.br/#home"><img src="<?= base_url(); ?>assets/images/logo.png" alt="Batalha"></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="<?php echo base_url(); ?>#produtos">Produtos</a></li>
+                        <li><a href="https://www.azeitebatalha.com.br/#produtos">Produtos</a></li>
                         <li><a href="http://compras.azeitebatalha.com.br/" target="_blank">Compre aqui</a></li>
-                        <li><a href="<?php echo base_url(); ?>#premios">Prêmios</a></li>
-                        <li><a href="<?php echo base_url(); ?>#receitas">Receitas</a></li>
-                        <li><a href="<?php echo base_url(); ?>#sobre-nos">Sobre nós</a></li>
-                        <li><a class="fale-conosco" href="<?php echo base_url(); ?>#fale-conosco">Fale conosco</a></li>
+                        <li><a href="https://www.azeitebatalha.com.br/#premios">Prêmios</a></li>
+                        <li><a class="active" href="https://www.azeitebatalha.com.br/#receitas">Receitas</a></li>
+                        <li><a href="https://www.azeitebatalha.com.br/#sobre-nos">Sobre nós</a></li>
+                        <li><a class="fale-conosco" href="https://www.azeitebatalha.com.br/#fale-conosco">Fale conosco</a></li>
                         <li class="redes"><a href="https://www.instagram.com/azeitebatalha/" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/insta.png" alt="Instagram"></a></li>
                         <li class="redes"><a href="https://facebook.com/azeitebatalha" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/face.png" alt="Facebook"></a></li>
-                        <!--<li class="redes"><a href="" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/youtube.png" alt="Youtube"></a></li> -->
                     </ul>
                 </div>
             </div>

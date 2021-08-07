@@ -6,6 +6,15 @@ $(document).on('ready', function () {
         autoplay: true,
         autoplaySpeed: 20000,
     });
+
+    $(".glr-receitas").slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 20000,
+    });
+    
     $(".galeria-01").slick({
         dots: false,
         infinite: true,

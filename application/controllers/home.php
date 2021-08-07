@@ -48,6 +48,34 @@ class Home extends CI_Controller{
         $this->load->view('rodape');
         $this->load->view('html_footer');
     }
+    public function blog()
+    {
+        $data['title'] = 'Azeite Batalha';
+        $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
+        $data['keywords'] = 'Azeite, Batalha, Oliva, Brasileiro, considerado, melhores, Azeites, do mundo, Produzido, Brasil, premiado, exterior';
+        $menu['blog'] = 'active';
+        $conteudo['pagina_view'] = 'blog_view';
+        $this->load->view('html_header', $data);
+        $this->load->view('header');
+        $this->load->view('menu', $menu);
+        $this->load->view('conteudo', $conteudo);
+        $this->load->view('rodape');
+        $this->load->view('html_footer');
+    }
+    public function receitas()
+    {
+        $data['title'] = 'Azeite Batalha';
+        $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
+        $data['keywords'] = 'Azeite, Batalha, Oliva, Brasileiro, considerado, melhores, Azeites, do mundo, Produzido, Brasil, premiado, exterior';
+        $menu['receitas'] = 'active';
+        $conteudo['pagina_view'] = 'receitas_view';
+        $this->load->view('html_header', $data);
+        $this->load->view('header');
+        $this->load->view('menu', $menu);
+        $this->load->view('conteudo', $conteudo);
+        $this->load->view('rodape');
+        $this->load->view('html_footer');
+    }
 
 }
 

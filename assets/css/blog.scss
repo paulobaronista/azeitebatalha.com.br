@@ -1,0 +1,155 @@
+.header-blog {
+    margin-top: 58px;
+    background-color: #dfdfdf;
+
+    img {
+        margin-top: 40px;
+    }
+}
+
+.blog {
+    background-color: #dfdfdf;
+    padding-top: 30px;
+    padding-bottom: 100px;
+
+    .box_info {
+        background-color: #ffffff;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+
+        p,
+        a {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+
+        .categoria {
+            font-size: 12px;
+            line-height: 17px;
+            color: #bab154;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .titulo {
+            font-size: 14px;
+            line-height: 19px;
+            color: #282828;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .data {
+            font-size: 14px;
+            line-height: 19px;
+            color: #bab154;
+            margin-bottom: 5px;
+            background: url(../images/retangulo.png) center left no-repeat;
+            padding-left: 12px;
+        }
+
+        .texto {
+            font-size: 12px;
+            line-height: 17px;
+            color: #282828;
+            margin-top: 10px;
+        }
+
+        .btn {
+            color: #ffffff;
+            background-color: #bab154;
+            border-radius: 0px;
+            margin-top: 10px;
+        }
+    }
+
+    .box_populares {
+        background-color: #ffffff;
+        padding-top: 30px;
+        padding-bottom: 10px;
+
+        .titulo {
+            margin-bottom: 30px;
+
+            p {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                color: #bab154;
+                font-size: 14px;
+                line-height: 19px;
+                text-transform: uppercase;
+            }
+
+            hr {
+                margin-top: 5px;
+                margin-bottom: 0px;
+                border-top: 2px solid #bab154;
+            }
+        }
+
+        .box {
+            background-color: #dfdfdf;
+            margin-bottom: 20px;
+            text-decoration: none;
+            outline: none;
+
+            .texto {
+                display: table;
+                height: 90px;
+
+                div {
+                    display: table-cell;
+                    vertical-align: middle;
+
+                    p {
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 600;
+                        color: #282828;
+                        font-size: 12px;
+                        line-height: 17px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+
+    .box_video {
+        margin-top: 30px;
+    }
+
+    .box_news {
+        margin-top: 30px;
+    }
+}
+
+
+
+/* Extra Small */
+@media(max-width:767px) {
+    .header-blog {
+        margin-top: 53px;
+
+        img {
+            margin-top: 30px;
+        }
+    }
+
+    .blog {
+        .box_info {
+            .categoria {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

@@ -1,0 +1,143 @@
+.header-blog {
+  margin-top: 58px;
+  background-color: #dfdfdf;
+}
+
+.header-blog img {
+  margin-top: 40px;
+}
+
+.blog {
+  background-color: #dfdfdf;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.blog .box_info {
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.blog .box_info p,
+.blog .box_info a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.blog .box_info .categoria {
+  font-size: 12px;
+  line-height: 17px;
+  color: #bab154;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.blog .box_info .titulo {
+  font-size: 14px;
+  line-height: 19px;
+  color: #282828;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.blog .box_info .data {
+  font-size: 14px;
+  line-height: 19px;
+  color: #bab154;
+  margin-bottom: 5px;
+  background: url(../images/retangulo.png) center left no-repeat;
+  padding-left: 12px;
+}
+
+.blog .box_info .texto {
+  font-size: 12px;
+  line-height: 17px;
+  color: #282828;
+  margin-top: 10px;
+}
+
+.blog .box_info .btn {
+  color: #ffffff;
+  background-color: #bab154;
+  border-radius: 0px;
+  margin-top: 10px;
+}
+
+.blog .box_populares {
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.blog .box_populares .titulo {
+  margin-bottom: 30px;
+}
+
+.blog .box_populares .titulo p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #bab154;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.blog .box_populares .titulo hr {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  border-top: 2px solid #bab154;
+}
+
+.blog .box_populares .box {
+  background-color: #dfdfdf;
+  margin-bottom: 20px;
+  text-decoration: none;
+  outline: none;
+}
+
+.blog .box_populares .box .texto {
+  display: table;
+  height: 90px;
+}
+
+.blog .box_populares .box .texto div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.blog .box_populares .box .texto div p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #282828;
+  font-size: 12px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+.blog .box_video {
+  margin-top: 30px;
+}
+
+.blog .box_news {
+  margin-top: 30px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .header-blog {
+    margin-top: 53px;
+  }
+  .header-blog img {
+    margin-top: 30px;
+  }
+  .blog .box_info .categoria {
+    margin-top: 20px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=blog.css.map */

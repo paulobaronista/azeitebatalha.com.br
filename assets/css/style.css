@@ -1296,4 +1296,253 @@ footer .navbar-nav li:last-child a {
 /* Small */
 /* Medium */
 /* Large */
+.header-blog {
+  margin-top: 58px;
+  background-color: #dfdfdf;
+}
+
+.header-blog img {
+  margin-top: 40px;
+}
+
+.blog {
+  background-color: #dfdfdf;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.blog .box_info {
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.blog .box_info p,
+.blog .box_info a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.blog .box_info .categoria {
+  font-size: 12px;
+  line-height: 17px;
+  color: #bab154;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.blog .box_info .titulo {
+  font-size: 14px;
+  line-height: 19px;
+  color: #282828;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.blog .box_info .data {
+  font-size: 14px;
+  line-height: 19px;
+  color: #bab154;
+  margin-bottom: 5px;
+  background: url(../images/retangulo.png) center left no-repeat;
+  padding-left: 12px;
+}
+
+.blog .box_info .texto {
+  font-size: 12px;
+  line-height: 17px;
+  color: #282828;
+  margin-top: 10px;
+}
+
+.blog .box_info .btn {
+  color: #ffffff;
+  background-color: #bab154;
+  border-radius: 0px;
+  margin-top: 10px;
+}
+
+.blog .box_populares {
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.blog .box_populares .titulo {
+  margin-bottom: 30px;
+}
+
+.blog .box_populares .titulo p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #bab154;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.blog .box_populares .titulo hr {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  border-top: 2px solid #bab154;
+}
+
+.blog .box_populares .box {
+  background-color: #dfdfdf;
+  margin-bottom: 20px;
+  text-decoration: none;
+  outline: none;
+}
+
+.blog .box_populares .box .texto {
+  display: table;
+  height: 90px;
+}
+
+.blog .box_populares .box .texto div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.blog .box_populares .box .texto div p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #282828;
+  font-size: 12px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+.blog .box_video {
+  margin-top: 30px;
+}
+
+.blog .box_news {
+  margin-top: 30px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .header-blog {
+    margin-top: 53px;
+  }
+  .header-blog img {
+    margin-top: 30px;
+  }
+  .blog .box_info .categoria {
+    margin-top: 20px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.pg-receitas {
+  background-color: #dfdfdf;
+  margin-top: 58px;
+  padding-bottom: 100px;
+}
+
+.pg-receitas .busca {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.pg-receitas .busca .form-control {
+  border: 0px solid transparent;
+  border-radius: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #282828;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 30px 16px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.pg-receitas .busca .form-control::-webkit-input-placeholder {
+  color: #282828;
+}
+
+.pg-receitas .busca .form-control:-ms-input-placeholder {
+  color: #282828;
+}
+
+.pg-receitas .busca .form-control::-ms-input-placeholder {
+  color: #282828;
+}
+
+.pg-receitas .busca .form-control::placeholder {
+  color: #282828;
+}
+
+.pg-receitas .busca .input-group-btn button {
+  height: 46px;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  border-color: transparent;
+  background: url(../images/lupa.png) center center no-repeat #ffffff;
+  background-size: 55%;
+  padding: 30px;
+}
+
+.pg-receitas .box {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.pg-receitas .box .box-info {
+  background-color: #ffffff;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+
+.pg-receitas .box p,
+.pg-receitas .box a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.pg-receitas .box .titulo {
+  font-size: 15px;
+  line-height: 20px;
+  color: #282828;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.pg-receitas .box .bullet {
+  font-size: 14px;
+  line-height: 19px;
+  color: #bab154;
+  margin-bottom: 3px;
+}
+
+.pg-receitas .box .bullet span {
+  color: #282828;
+}
+
+.pg-receitas .box .texto {
+  font-size: 14px;
+  line-height: 19px;
+  color: #5f5f5f;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.pg-receitas .box .btn {
+  color: #ffffff;
+  background-color: #bab154;
+  border-radius: 0px;
+  margin-top: 10px;
+  padding: 8px 15px;
+}
+
+/* Extra Small */
+/* Small */
+/* Medium */
+/* Large */
 /*# sourceMappingURL=style.css.map */
