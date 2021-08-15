@@ -42,7 +42,9 @@ $route['default_controller'] = "home";
 $route['politicadeprivacidade'] = "home/politicadeprivacidade";
 $route['politicadecookies'] = "home/politicadecookies";
 $route['blog'] = "home/blog";
+$route['blog/vantagens_de_temperar_sua_salada_com_azeite'] = "home/vantagens_de_temperar_sua_salada_com_azeite";
 $route['receitas'] = "home/receitas";
+$route['receitas/arroz_de_frutos_do_mar'] = "home/arroz_de_frutos_do_mar";
 $route['404_override'] = '';
 
 /* End of file routes.php */

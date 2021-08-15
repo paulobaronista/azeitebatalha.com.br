@@ -28,75 +28,43 @@
         </div>
     </div>
 </nav>
-<div class="container-fluid padding-off header-blog">
-    <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/header_blog_1.png" alt="Azeite Batalha Frutado">
-    <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/header_blog_1_mobile.png" alt="Azeite Batalha Frutado">
+<div class="container-fluid padding-off header-blog-interno">
+    <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/banner_full_blog.png" alt="Azeite Batalha">
+    <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/banner_full_blog_mobile.png" alt="Azeite Batalha">
 </div>
 <div class="container-fluid padding-off blog">
     <div class="container">
         <div class="row">
-            <!-- letf -->
+            <!-- Conteúdo -->
             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box_info">
-                    <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
-                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/women-lunch-salad-eating-modern.png" alt="Azeite Batalha Frutado">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/women-lunch-salad-eating-modern_full.png" alt="Azeite Batalha Frutado">
                     </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top-20">
                         <p class="categoria">SAÚDE E BEM-ESTAR</p>
                         <p class="titulo">vantagens de temperar sua salada com azeite?</p>
                         <p class="data">01 de agosto de 2021</p>
-                        <p class="texto">O azeite é capaz de melhorar a circulação sanguínea, afastar
-                            a gastrite, controlar os níveis de colesterol e muito mais!
-                            O óleo possui gorduras do bem que limpam as artérias, protegendo
-                            o coração. Confira outras vantagens desse óleo</p>
-                        <a class="btn" href="<?php echo base_url(); ?>blog/vantagens_de_temperar_sua_salada_com_azeite">LER MAIS</a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box_info">
-                    <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
-                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/blog_beleza.png" alt="Azeite Batalha Frutado">
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
-                        <p class="categoria">BELEZA</p>
-                        <p class="titulo">azeite de oliva para a sua beleza</p>
-                        <p class="data">01 de agosto de 2021</p>
-                        <p class="texto">O azeite de oliva tem propriedades altamente hidratantes.
-                            O ingrediente é inclusive matéria prima de muitos xampus,
-                            condicionadores, máscaras, loções corporais e mais produtos.
-                            Puro, ele pode ser um grande aliado da sua beleza, servindo
-                            para hidratar o cabelo, a pele, remover a maquiagem a mais.</p>
-                        <a class="btn" href="">LER MAIS</a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box_info">
-                    <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
-                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/blog_saude.png" alt="Azeite Batalha Frutado">
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
-                        <p class="categoria">SAÚDE E BEM-ESTAR</p>
-                        <p class="titulo">Principais benefícios do azeite para a saúde</p>
-                        <p class="data">01 de agosto de 2021</p>
-                        <p class="texto">O azeite de oliva é feito a partir das azeitonas e tem vantagens e
-                            benefícios que vão além da saúde e da culinária, como auxílio no
-                            emagrecimento e ação hidratante para pele e cabelos.
-                            Porém, para aproveitar as propriedades do azeite, seu consumo
-                            ou uso não precisam ser exagerados.</p>
-                        <a class="btn" href="">LER MAIS</a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box_info">
-                    <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
-                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/blog_receitas.png" alt="Azeite Batalha Frutado">
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
-                        <p class="categoria">RECEITAS</p>
-                        <p class="titulo">4 receitas em que o azeite de oliva</p>
-                        <p class="data">01 de agosto de 2021</p>
-                        <p class="texto">Aprenda a preparar quatro receitas supersimples onde o azeite
-                            de oliva é essencial e abundante.
-                            PESTO DE RÚCULA COM GORGONZOLA, LEGUMES NO AZEITE,
-                            MOLHO ROMESCO e PANZANELLA.</p>
-                        <a class="btn" href="">LER MAIS</a>
+                        <p class="texto">
+                                Não se sabe com exatidão sua origem, mas o uso do azeite é milenar. A oliveira foi uma das primeiras árvores a ser cultivada há mais de 5 mil anos no Mediterrâneo Oriental e na Ásia. De nome derivado do vocábulo “Az-zait” — que significa sumo de azeitona —, a sua importância, ao longo dos anos, resultou das múltiplas utilizações que lhe foram dadas na alimentação, medicina, higiene e beleza. O alimento é capaz de melhorar a circulação sanguínea, afastar a gastrite, controlar os níveis de colesterol e muito mais! Quer outros motivos para inclui-lo na salada? Aqui seguem alguns:
+                                <br/><br/>
+                                Amigo do Coração
+                                <br/><br/>
+                                O óleo possui gorduras do bem que limpam as artérias, protegendo o coração. A nutricionista Mariana Zogaib completa: “O azeite pode reduzir a quantidade do mau colesterol (LDL) no organismo, devido à sua grande quantidade de gordura monoinsaturada. O fator importante é que essa gordura não se transforma em colesterol, reduzindo o risco de infarto ou acidente vascular cerebral (AVC), uma vez que o consumo regular do óleo diminui a formação de placas de ateroma (gordura) nas paredes dos vasos sanguíneos”.
+                                <br/><br/>
+                                Queima a gordura corporal
+                                <br/><br/>
+                                Os compostos presentes no azeite reorganizam a distribuição de gordura do corpo, afastando-a principalmente da região da cintura. “A circunferência abdominal é outra que agradece o consumo de azeite. É que o alimento ajuda a evitar a inflamação de uma área do cérebro chamada hipotálamo, fenômeno provocado por dietas ricas em gorduras saturadas, presentes nas carnes e nos produtos de origem animal.
+                                <br/><br/>
+                                Como o hipotálamo é o pedaço responsável pelo controle da fome e do gasto energético, não é um exagero dizer que o óleo de oliva auxilia a manter a harmonia na massa cinzenta e, assim, a afastar os quilos a mais. Além disso, ele acelera a produção de um hormônio chamado GLP 1, que age no cérebro aumentando a saciedade e reduzindo o apetite”, revela Mariana.
+                                Contra o envelhecimento precoce
+                                <br/><br/>
+                                A exposição ao sol, por exemplo, pode contribuir para o envelhecimento da pele, pois, contribui para o aumento da produção de radicais livres. É aqui que o azeite entra em ação. “Ele é rico em vitamina E, que tem importante atividade antioxidante, auxiliando no combate aos radicais livres que são produzidos diariamente em nosso organismo e são responsáveis pelo envelhecimento e o aparecimento de doenças crônicas”, destaca a nutricionista Suzana Machado.
+                                <br/><br/>
+                                Escudo Anticâncer
+                                <br/><br/>
+                                Um estudo realizado na Universidade de Oxford, na Inglaterra, comprovou que o uso do azeite ajuda a conter o câncer de cólon. A equipe de pesquisadores do Instituto de Ciências da Saúde compararam as taxas de câncer, dietas e consumo de azeite de oliva em 28 países, incluindo Grã-Bretanha, Estados Unidos, Brasil, Canadá e China. Os países com uma dieta rica em carne e poucos vegetais tiveram as taxas mais altas de doença, porém o azeite foi associado à diminuição do risco.
+                                </p>
                     </div>
                 </div>
             </div>

@@ -96,6 +96,111 @@
             padding: 8px 15px;
         }
     }
+
+    .box_interno {
+
+        .box-info {
+            background-color: #ffffff;
+            padding-bottom: 15px;
+            padding-top: 20px;
+        }
+
+        p,
+        a {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+
+        .titulo {
+            font-size: 15px;
+            line-height: 20px;
+            color: #282828;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .bullet {
+            font-size: 14px;
+            line-height: 19px;
+            color: #bab154;
+            margin-bottom: 3px;
+
+            span {
+                color: #282828;
+            }
+        }
+
+        .texto {
+            font-size: 14px;
+            line-height: 19px;
+            color: #5f5f5f;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            color: #ffffff;
+            background-color: #bab154;
+            border-radius: 0px;
+            margin-top: 10px;
+            padding: 8px 15px;
+        }
+    }
+
+    .box_populares {
+
+        .titulo {
+            margin-bottom: 20px;
+
+            p {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                color: #bab154;
+                font-size: 14px;
+                line-height: 19px;
+                text-transform: uppercase;
+            }
+
+            hr {
+                margin-top: 5px;
+                margin-bottom: 0px;
+                border-top: 2px solid #bab154;
+            }
+        }
+
+        .box_interno {
+            margin-bottom: 20px;
+        }
+
+    }
+
+    .galeria-detalhe-receitas {
+        background-color: #ffffff;
+        padding-bottom: 20px;
+
+        .box-galeriaReceitas {
+            margin-top: 15px;
+            margin-bottom: 15px;
+
+            span {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                color: #ffffff;
+                font-size: 15px;
+                line-height: 15px;
+                background-color: #bab154;
+                position: absolute;
+                text-align: center;
+                top: 5px;
+                left: 20px;
+                width: 25px;
+                height: 25px;
+                display: block;
+                padding-top: 5px;
+            }
+        }
+
+    }
 }
 
 
