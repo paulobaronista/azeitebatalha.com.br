@@ -50,7 +50,7 @@ class Home extends CI_Controller{
     }
     public function blog()
     {
-        $data['title'] = 'Azeite Batalha';
+        $data['title'] = 'Azeite Batalha - Blog';
         $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
         $data['keywords'] = 'Azeite, Batalha, Oliva, Brasileiro, considerado, melhores, Azeites, do mundo, Produzido, Brasil, premiado, exterior';
         $menu['blog'] = 'active';
@@ -80,7 +80,7 @@ class Home extends CI_Controller{
 
     public function receitas()
     {
-        $data['title'] = 'Azeite Batalha';
+        $data['title'] = 'Azeite Batalha - Receitas';
         $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
         $data['keywords'] = 'Azeite, Batalha, Oliva, Brasileiro, considerado, melhores, Azeites, do mundo, Produzido, Brasil, premiado, exterior';
         $menu['receitas'] = 'active';
@@ -93,13 +93,58 @@ class Home extends CI_Controller{
         $this->load->view('html_footer');
     }
 
-    public function arroz_de_frutos_do_mar()
+    public function camarao_satteado()
     {
-        $data['title'] = 'Azeite Batalha';
+        $data['title'] = 'Azeite Batalha - CAMARÃO SATTEADO';
         $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
         $data['keywords'] = 'Azeite, Batalha, Oliva, Brasileiro, considerado, melhores, Azeites, do mundo, Produzido, Brasil, premiado, exterior';
         $menu['receitas'] = 'active';
-        $conteudo['pagina_view'] = 'arroz_de_frutos_do_mar_view';
+        $conteudo['pagina_view'] = 'camarao_satteado_view';
+        $this->load->view('html_header', $data);
+        $this->load->view('header');
+        $this->load->view('menu', $menu);
+        $this->load->view('conteudo', $conteudo);
+        $this->load->view('rodape');
+        $this->load->view('html_footer');
+    }
+
+    public function maca_verde()
+    {
+        $data['title'] = 'Azeite Batalha - MAÇÃ VERDE';
+        $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
+        $data['keywords'] = 'Azeite, Batalha, Oliva, Brasileiro, considerado, melhores, Azeites, do mundo, Produzido, Brasil, premiado, exterior';
+        $menu['receitas'] = 'active';
+        $conteudo['pagina_view'] = 'maca_verde_view';
+        $this->load->view('html_header', $data);
+        $this->load->view('header');
+        $this->load->view('menu', $menu);
+        $this->load->view('conteudo', $conteudo);
+        $this->load->view('rodape');
+        $this->load->view('html_footer');
+    }
+
+    public function cuscuz_camaroes()
+    {
+        $data['title'] = 'Azeite Batalha - CUSCUZ COM CAMARÕES';
+        $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
+        $data['keywords'] = 'Azeite, Batalha, Oliva, Brasileiro, considerado, melhores, Azeites, do mundo, Produzido, Brasil, premiado, exterior';
+        $menu['receitas'] = 'active';
+        $conteudo['pagina_view'] = 'cuscuz_camaroes_view';
+        $this->load->view('html_header', $data);
+        $this->load->view('header');
+        $this->load->view('menu', $menu);
+        $this->load->view('conteudo', $conteudo);
+        $this->load->view('rodape');
+        $this->load->view('html_footer');
+    }
+
+    public function bacalhau_confitado()
+    {
+        $data['title'] = 'Azeite Batalha - BACALHAU CONFITADO';
+        $data['description'] = 'Conheça o Azeite Batalha. Azeite de Oliva Brasileiro, considerado um dos melhores Azeites do mundo. Produzido no Brasil, premiado no exterior. #VerdadeiramenteExtravirgem';
+        $data['keywords'] = 'Azeite, Batalha, Oliva, Brasileiro, considerado, melhores, Azeites, do mundo, Produzido, Brasil, premiado, exterior';
+        $menu['receitas'] = 'active';
+        $conteudo['pagina_view'] = 'bacalhau_confitado_view';
         $this->load->view('html_header', $data);
         $this->load->view('header');
         $this->load->view('menu', $menu);

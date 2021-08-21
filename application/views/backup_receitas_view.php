@@ -67,86 +67,79 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 box">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/receitas/CamarapSalteado.jpg" alt="Azeite Batalha">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/receita_01.png" alt="Azeite Batalha">
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-info">
                             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-10 padding-off">
-                                <p class="titulo">CAMARÃO SATTEADO</p>
-                                <p class="sub-titulo">no alho com azeite Batalha Intenso</p>
-                                <p class="chef">por <i>Chef Thiago Andrade</i></p>
-                                <!-- <p class="bullet">Quantidade: <span>6 porções</span></p>
+                                <p class="titulo">Arroz de frutos do mar</p>
+                                <p class="bullet">Quantidade: <span>6 porções</span></p>
                                 <p class="bullet">Tempo de preparo: <span>1h20</span></p>
-                                <p class="bullet">Dificuldade: <span style="color: #ffc000;">Média</span></p> -->
+                                <p class="bullet">Dificuldade: <span style="color: #ffc000;">Média</span></p>
                             </div>
                             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 text-right padding-off">
-                                <!-- <span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bbbbbb;">&#x2605;</span> -->
+                                <span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bbbbbb;">&#x2605;</span>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
-                                <p class="texto">
-                                    Modo de preparo: Aqueça uma frigideira antiaderente e sele os
-                                    camarões no Azeite Batalha Intenso, por 30
-                                    segundos de cada lado. Mantenha em fogo alto e
-                                    adicione o alho, o louro ...
-                                </p>
+                                <p class="texto">Modo de preparo: Descasque seis camarões e
+                                    reserve os outros, guardando as cascas. Pique
+                                    os camarões descascados e reserve. Faça um
+                                    caldo, refogando as cascas do camarão,
+                                    ½ cenoura, 1 talo de salsão, ...</p>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                                <a href="<?php echo base_url(); ?>receitas/camarao_satteado" class="btn">VER A RECEITA</a>
+                                <a href="<?php echo base_url(); ?>receitas/arroz_de_frutos_do_mar" class="btn">VER A RECEITA</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 box">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/receitas/macaVerde.jpg" alt="Azeite Batalha">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/receita_02.png" alt="Azeite Batalha">
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-info">
                             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-10 padding-off">
-                                <p class="titulo">MAÇÃ VERDE</p>
-                                <p class="sub-titulo">assada com Azeite Batalha Frutado e sorvete de baunilha</p>
-                                <p class="chef">por <i>Chef Thiago Andrade</i></p>
-                                <!-- <p class="bullet">Quantidade: <span>6 porções</span></p>
+                                <p class="titulo">caldo verde</p>
+                                <p class="bullet">Quantidade: <span>6 porções</span></p>
                                 <p class="bullet">Tempo de preparo: <span>1h20</span></p>
-                                <p class="bullet">Dificuldade: <span style="color: #ffc000;">Média</span></p> -->
+                                <p class="bullet">Dificuldade: <span style="color: #2c8523;">Fácil</span></p>
                             </div>
                             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 text-right padding-off">
-                                <!-- <span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bbbbbb;">&#x2605;</span> -->
+                                <span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bbbbbb;">&#x2605;</span><span style="color: #bbbbbb;">&#x2605;</span>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
-                                <p class="texto">
-                                    Modo de preparo: Descasque as maçãs, corte ao meio e retire as sementes e cabos.
-                                    Misture o suco de limão com a canela, açúcar e o Azeite Batalha
-                                    Frutado e envolva as maçãs ...
-                                </p>
+                                <p class="texto">Modo de preparo: descasque, corte em cubos
+                                    e cozinhe as batatas com as cebolas, cobrindo
+                                    com água, até que elas desmanchem. Processe
+                                    com a própria água em que foram cozidas e
+                                    faça um creme. Refogue, no azeite, ...</p>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                                <a href="<?php echo base_url(); ?>receitas/maca_verde" class="btn">VER A RECEITA</a>
+                                <a href="" class="btn">VER A RECEITA</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 box">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/receitas/CuscuzCamaroes.jpg" alt="Azeite Batalha">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/receita_03.png" alt="Azeite Batalha">
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-info">
                             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-10 padding-off">
-                                <p class="titulo">CUSCUZ COM CAMARÕES</p>
-                                <p class="sub-titulo">e Azeite Batalha Intenso</p>
-                                <p class="chef">por <i>Chef Thiago Andrade</i></p>
-                                <!-- <p class="bullet">Quantidade: <span>6 porções</span></p>
+                                <p class="titulo">Cuscuz de farinha de uarini com camarões
+                                </p>
+                                <p class="bullet">Quantidade: <span>10 porções</span></p>
                                 <p class="bullet">Tempo de preparo: <span>1h20</span></p>
-                                <p class="bullet">Dificuldade: <span style="color: #ffc000;">Média</span></p> -->
+                                <p class="bullet">Dificuldade: <span style="color: #ff3939;">Difícil</span></p>
                             </div>
                             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 text-right padding-off">
-                                <!-- <span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bbbbbb;">&#x2605;</span> -->
+                                <span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bbbbbb;">&#x2605;</span>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
-                                <p class="texto">
-                                    Modo de preparo: Tempere o camarão com metade do suco de limão, 1 colher de azeite,
-                                    1 colher de chá de alho e sal.Hidrate a farinha de uarini ou o
-                                    couscous marroquino com o caldo de camarão e 4 colheres de ...
-                                </p>
+                                <p class="texto">Preparo: tempere o camarão com metade do
+                                    suco de limão, 1 colher de azeite, 1 colher de chá
+                                    de alho e sal. Hidrate a farinha de uarini com o
+                                    caldo de camarão e 4 colheres de azeite...</p>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                                <a href="<?php echo base_url(); ?>receitas/cuscuz_camaroes" class="btn">VER A RECEITA</a>
+                                <a href="" class="btn">VER A RECEITA</a>
                             </div>
                         </div>
                     </div>
@@ -154,29 +147,79 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 box">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/receitas/BacalhauConfitado.jpg" alt="Azeite Batalha">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/receita_04.png" alt="Azeite Batalha">
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-info">
                             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-10 padding-off">
-                                <p class="titulo">BACALHAU CONFITADO</p>
-                                <p class="sub-titulo">em Azeite Extra Virgem Batalha com purê de grão de bico</p>
-                                <p class="chef">por <i>Chef Thiago Andrade</i></p>
-                                <!-- <p class="bullet">Quantidade: <span>6 porções</span></p>
+                                <p class="titulo">Caldo de camarão</p>
+                                <p class="bullet">Quantidade: <span>5 porções</span></p>
                                 <p class="bullet">Tempo de preparo: <span>1h20</span></p>
-                                <p class="bullet">Dificuldade: <span style="color: #ffc000;">Média</span></p> -->
+                                <p class="bullet">Dificuldade: <span style="color: #ffc000;">Média</span></p>
                             </div>
                             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 text-right padding-off">
-                                <!-- <span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bbbbbb;">&#x2605;</span> -->
+                                <span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bbbbbb;">&#x2605;</span>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
-                                <p class="texto">
-                                    Modo de preparo: Dessalgue o bacalhau com pelo menos 24 horas de antecedência.
-                                    Coloque os filés de bacalhau em uma forma de vidro e reserve.
-                                    Corte os tomates ao meio, retire as sementes e coloque o alho picado ...
-                                </p>
+                                <p class="texto">Modo de preparo: refogue as cascas de camarão,
+                                    a cebola, a cenoura e o salsão no alho, deixando
+                                    dourar levemente. Adicione a cachaça e flambe.
+                                    Cubra com a água e deixe em fogo médio até
+                                    levantar fervura. Desligue o fogo, coe os...</p>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                                <a href="<?php echo base_url(); ?>receitas/bacalhau_confitado" class="btn">VER A RECEITA</a>
+                                <a href="" class="btn">VER A RECEITA</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 box">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/receita_05.png" alt="Azeite Batalha">
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-info">
+                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-10 padding-off">
+                                <p class="titulo">mousse chocolate</p>
+                                <p class="bullet">Quantidade: <span>6 porções</span></p>
+                                <p class="bullet">Tempo de preparo: <span>1h20</span></p>
+                                <p class="bullet">Dificuldade: <span style="color: #ffc000;">Média</span></p>
+                            </div>
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 text-right padding-off">
+                                <span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                                <p class="texto">Modo de Preparo: Derreta o chocolate no
+                                    micro-ondas de 1 em 1 minuto até ficar
+                                    cremoso. Junte ao chocolate derretido o azeite
+                                    Batalha, o creme de leite e o licor de cacau
+                                    misture bem e reserve.</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                <a href="" class="btn">VER A RECEITA</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 box">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/receita_01.png" alt="Azeite Batalha">
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-info">
+                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-10 padding-off">
+                                <p class="titulo">Peixe com crosta de caju,
+                                    purê de banana e
+                                    vinagrete de tangerina</p>
+                                <p class="bullet">Quantidade: <span>4 porções</span></p>
+                                <p class="bullet">Tempo de preparo: <span>1h20</span></p>
+                                <p class="bullet">Dificuldade: <span style="color: #ff3939;">Difícil</span></p>
+                            </div>
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 text-right padding-off">
+                                <span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bab154;">&#x2605;</span><span style="color: #bbbbbb;">&#x2605;</span>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                                <p class="texto">Modo de preparo: processe as castanhas de caju
+                                    até ficarem em pedaços pequenos, mas sem
+                                    virar pó. Adicione a manteiga gelada em cubos...</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                                <a href="" class="btn">VER A RECEITA</a>
                             </div>
                         </div>
                     </div>

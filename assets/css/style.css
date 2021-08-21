@@ -1518,7 +1518,20 @@ footer .navbar-nav li:last-child a {
   line-height: 20px;
   color: #282828;
   text-transform: uppercase;
-  margin-bottom: 10px;
+}
+
+.pg-receitas .box .sub-titulo {
+  font-size: 14px;
+  line-height: 16px;
+  color: #5f5f5f;
+  margin-top: 3px;
+}
+
+.pg-receitas .box .chef {
+  font-size: 11px;
+  line-height: 11px;
+  color: #5f5f5f;
+  margin-top: 5px;
 }
 
 .pg-receitas .box .bullet {
@@ -1565,7 +1578,20 @@ footer .navbar-nav li:last-child a {
   line-height: 20px;
   color: #282828;
   text-transform: uppercase;
-  margin-bottom: 10px;
+}
+
+.pg-receitas .box_interno .sub-titulo {
+  font-size: 14px;
+  line-height: 16px;
+  color: #5f5f5f;
+  margin-top: 3px;
+}
+
+.pg-receitas .box_interno .chef {
+  font-size: 11px;
+  line-height: 11px;
+  color: #5f5f5f;
+  margin-top: 5px;
 }
 
 .pg-receitas .box_interno .bullet {
@@ -1593,10 +1619,6 @@ footer .navbar-nav li:last-child a {
   border-radius: 0px;
   margin-top: 10px;
   padding: 8px 15px;
-}
-
-.pg-receitas .box_populares .titulo {
-  margin-bottom: 20px;
 }
 
 .pg-receitas .box_populares .titulo p {

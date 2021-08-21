@@ -147,9 +147,9 @@
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/box_blog_video.png" alt="Azeite Batalha Frutado">
                     </a>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off box_news">
+                <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off box_news">
                     <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/news.png" alt="Azeite Batalha Frutado">
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
