@@ -47,16 +47,28 @@
         <div class="galeria">
             <section class="glr-receitas slider">
                 <div>
-                    <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria_receitas.jpg" alt="Azeite Batalha">
-                    <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria_receitas_mobile.jpg" alt="Azeite Batalha">
+                    <a href="<?php echo base_url(); ?>receitas/bacalhau_confitado">
+                        <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/receitas/galeria_BacalhauConfitado.jpg" alt="Azeite Batalha">
+                        <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/receitas/galeria_BacalhauConfitado_mobile.jpg" alt="Azeite Batalha">
+                    </a>
                 </div>
                 <div>
-                    <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria_receitas.jpg" alt="Azeite Batalha">
-                    <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria_receitas_mobile.jpg" alt="Azeite Batalha">
+                    <a href="<?php echo base_url(); ?>receitas/camarao_satteado">
+                        <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/receitas/galeria_CamarapSalteado.jpg" alt="Azeite Batalha">
+                        <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/receitas/galeria_CamarapSalteado_mobile.jpg" alt="Azeite Batalha">
+                    </a>
                 </div>
                 <div>
-                    <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria_receitas.jpg" alt="Azeite Batalha">
-                    <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria_receitas_mobile.jpg" alt="Azeite Batalha">
+                    <a href="<?php echo base_url(); ?>receitas/cuscuz_camaroes">
+                        <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/receitas/galeria_CuscuzCamaroes.jpg" alt="Azeite Batalha">
+                        <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/receitas/galeria_CuscuzCamaroes_mobile.jpg" alt="Azeite Batalha">
+                    </a>
+                </div>
+                <div>
+                    <a href="<?php echo base_url(); ?>receitas/maca_verde">
+                        <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/receitas/galeria_macaVerde.jpg" alt="Azeite Batalha">
+                        <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/receitas/galeria_macaVerde_mobile.jpg" alt="Azeite Batalha">
+                    </a>
                 </div>
             </section>
         </div>

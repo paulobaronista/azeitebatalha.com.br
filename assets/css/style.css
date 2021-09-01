@@ -418,8 +418,8 @@ p {
   border-radius: 0px;
   min-height: auto;
   margin-bottom: 0px;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
@@ -436,6 +436,8 @@ p {
   text-transform: uppercase;
   font-size: 12px;
   line-height: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .menu .nav > li > a::before {
@@ -468,7 +470,7 @@ p {
 }
 
 .menu .redes a {
-  padding: 5px 5px;
+  padding: 10px 5px !important;
 }
 
 .menu .redes a::before {
@@ -509,7 +511,7 @@ p {
     background: transparent !important;
   }
   .menu .navbar-toggle {
-    margin-top: 3px;
+    margin-top: 7px;
     margin-right: 5px;
     border-color: #000;
     margin-bottom: 0;
