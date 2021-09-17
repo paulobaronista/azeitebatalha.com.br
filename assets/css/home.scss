@@ -51,6 +51,7 @@
     background-color: #5a6223;
     padding-bottom: 30px;
     padding-top: 40px;
+
     p {
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
@@ -58,12 +59,40 @@
         line-height: 25px;
         color: #c1c36a;
         margin-bottom: 15px;
+
         span {
             color: #fff;
         }
     }
+
     img {
         margin-bottom: 30px;
+    }
+}
+
+.video {
+    background: url(../images/bg-video.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    margin-top: -5px;
+
+    h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        line-height: 25px;
+        color: #ffffff;
+        font-weight: 400;
+        margin-bottom: 20px;
+
+        span {
+            font-weight: 800;
+        }
+    }
+
+    img {
+        margin-top: 30px;
     }
 }
 
@@ -98,19 +127,28 @@
             line-height: 35px;
         }
     }
+
     .sobre-nos {
         padding-top: 20px;
         padding-bottom: 5px;
+
         p {
             font-size: 13px;
             line-height: 16px;
             margin-bottom: 10px;
             text-align: justify;
         }
+
         img {
             margin-bottom: 15px;
             max-width: 60%;
         }
+    }
+
+    .video {
+        background: url(../images/bg-video-mobile.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 }
 

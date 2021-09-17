@@ -63,6 +63,27 @@
         </section>
     </div>
 </div>
+<div id="video" class="container-fluid padding-off video">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center">
+                    <h4>VEJA UM POUCO DO <span>MUNDO BATALHA</span> ATRAVÉS DOS NOSSOS VÍDEOS:</h4>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 padding-off text-center">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/B-Mvk3Exiok"></iframe>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center">
+                    <a href="https://www.youtube.com/channel/UC6awGXsY_MFMQc-wcmJ2V8w/featured" target="_blank">
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cta-inscreva-se.png" alt="Inscreva-se">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="produtos" class="container-fluid padding-off produtos">
     <div class="container">
         <div class="row">
