@@ -368,6 +368,14 @@ p {
   z-index: 100;
 }
 
+#view-receita {
+  width: 1px;
+  height: 1px;
+  background-color: red;
+  position: absolute;
+  top: 30.3%;
+}
+
 @media (min-width: 768px) {
   .modalPascoa .modal-dialog {
     margin: 6% auto 0;
@@ -376,6 +384,9 @@ p {
 
 /* Extra Small */
 @media (max-width: 767px) {
+  #view-receita {
+    top: 0%;
+  }
   .aviso div {
     margin: 30% auto 0;
     width: 95%;
@@ -475,6 +486,12 @@ p {
 
 .menu .redes a::before {
   content: '' !important;
+}
+
+.menu .dst {
+  background-color: #aca727;
+  padding: 5px 10px;
+  color: #fff;
 }
 
 /* Extra Small */

@@ -14,11 +14,11 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="scrollink" href="#produtos">Produtos</a></li>
-                        <li><a href="http://compras.azeitebatalha.com.br/" target="_blank">Compre aqui</a></li>
+                        <li><a href="http://compras.azeitebatalha.com.br/" target="_blank"><span class="dst">Compre aqui</span></a></li>
                         <li><a class="scrollink" href="#premios">Prêmios</a></li>
                         <li><a class="scrollink active" href="#receitas">Receitas</a></li>
                         <li><a class="scrollink" href="#sobre-nos">Sobre nós</a></li>
-                        <li><a href="<?php echo base_url(); ?>blog">Blog</a></li>
+                        <!--<li><a href="<?php echo base_url(); ?>blog">Blog</a></li>-->
                         <li><a class="scrollink fale-conosco" href="#fale-conosco">Fale conosco</a></li>
                         <li class="redes"><a href="https://www.instagram.com/azeitebatalha/" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/insta.png" alt="Instagram"></a></li>
                         <li class="redes"><a href="https://facebook.com/azeitebatalha" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/face.png" alt="Facebook"></a></li>

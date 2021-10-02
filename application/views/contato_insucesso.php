@@ -18,7 +18,7 @@
                         <li><a href="https://www.azeitebatalha.com.br/#premios">Prêmios</a></li>
                         <li><a href="<?php echo base_url(); ?>receitas">Receitas</a></li>
                         <li><a href="https://www.azeitebatalha.com.br/#sobre-nos">Sobre nós</a></li>
-                        <li><a href="<?php echo base_url(); ?>blog">Blog</a></li>
+                        <!--<li><a href="<?php echo base_url(); ?>blog">Blog</a></li>-->
                         <li><a class="fale-conosco" href="https://www.azeitebatalha.com.br/#fale-conosco">Fale conosco</a></li>
                         <li class="redes"><a href="https://www.instagram.com/azeitebatalha/" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/insta.png" alt="Instagram"></a></li>
                         <li class="redes"><a href="https://facebook.com/azeitebatalha" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/face.png" alt="Facebook"></a></li>

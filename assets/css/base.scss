@@ -20,7 +20,7 @@
 
 .margin-top-30 {
     margin-top: 30px;
-}     
+}
 
 .margin-top-40 {
     margin-top: 40px;
@@ -321,6 +321,14 @@ p {
     }
 }
 
+#view-receita {
+    width: 1px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    top: 30.3%;
+}
+
 @media (min-width: 768px) {
     .modalPascoa {
         .modal-dialog {
@@ -332,6 +340,10 @@ p {
 
 /* Extra Small */
 @media(max-width:767px) {
+    #view-receita {
+        top: 0%;
+    }
+
     .aviso {
         div {
             margin: 30% auto 0;
@@ -362,6 +374,7 @@ p {
         .modal-dialog {
             margin: 25% auto 0;
         }
+
         .close {
             top: -30px;
             right: 5px;
