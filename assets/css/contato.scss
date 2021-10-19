@@ -91,6 +91,16 @@
             text-transform: uppercase;
         }
     }
+
+    small {
+        font-family: 'HelveticaNeue';
+        font-weight: 500;
+        color: #ffffff;
+        font-size: 10px;
+        line-height: 13px;
+        display: block;
+    }
+    
 }
 
 /* Extra Small */
@@ -98,6 +108,7 @@
     .contato {
         padding-top: 30px;
         padding-bottom: 30px;
+
         .tt {
             padding-bottom: 20px;
 

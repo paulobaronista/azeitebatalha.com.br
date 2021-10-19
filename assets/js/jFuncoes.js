@@ -14,7 +14,7 @@ $(document).on('ready', function () {
         autoplay: true,
         autoplaySpeed: 20000,
     });
-    
+
     $(".galeria-01").slick({
         dots: false,
         infinite: true,
@@ -113,13 +113,23 @@ $(document).ready(function () {
 $(function () {
     $('.nome').clear();
     $('.email').clear();
+    $('.telefone').clear();
+    $('.assunto1').clear();
     $('.msg').clear();
 
     $('.btn_enviar').on('click', function () {
-        var n, e, m;
+        var n, e, t, a, m;
         var msg = "";
         n = $('.nome').val();
         e = $('.email').val();
+        t = $('.telefone').val();
+        a = $('.assunto1').val();
         m = $('.msg').val();
+
+        if (n !== '' && e !== '' & t !== '' && a !== '' && m !== '') {
+            setTimeout(function() { 
+                $(".btn_enviar").attr('disabled', 'disabled');
+            }, 1000);
+        }
     });
 });

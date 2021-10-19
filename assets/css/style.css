@@ -1181,6 +1181,15 @@ p {
   text-transform: uppercase;
 }
 
+.contato small {
+  font-family: 'HelveticaNeue';
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 13px;
+  display: block;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .contato {

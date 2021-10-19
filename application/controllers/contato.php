@@ -16,6 +16,8 @@ class Contato extends CI_Controller{
         if($this->input->post('enviar_email') == "enviar"){
             $nome = $this->input->post('nome');
             $email = $this->input->post('email');
+            $telefone = $this->input->post('telefone');
+            $assunto1 = $this->input->post('assunto1');
             $mensagem = utf8_decode($this->input->post('mss'));
             $assunto = utf8_decode('Contato enviado pelo site www.azeitebatalha.com.br');
 
@@ -25,15 +27,18 @@ class Contato extends CI_Controller{
 
             $this->email->from("contato@azeitebatalha.com.br","Azeite Batalha");
             $this->email->to('contato@azeitebatalha.com.br');
-            $this->email->cc('renata@spicycomm.com.br, front.baronista@gmail.com, site@azeitebatalha.com.br');
+            $this->email->cc('renata@spicycomm.com.br, front.baronista@gmail.com, site@azeitebatalha.com.br, alebertone@spicycomm.com.br');
+            //$this->email->cc('front.baronista@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
             <head> <meta http-equiv='content-type' content='text/html;charset=UTF-8' /> </head><body>
             Nome:		{$nome}<br/>
                 E-mail:		{$email}<br/>
-                    Pedido:	{$mensagem}<br/>
-                        </body></html>");
+                    Telefone:	{$telefone}<br/>
+                        Assunto:	{$assunto1}<br/>
+                            Mensagem:	{$mensagem}<br/>
+                            </body></html>");
 
             if($this->email->send()){
                 redirect('contato/obrigado');

@@ -280,24 +280,45 @@
                 <form method="post" role="form" action="<?php echo base_url("contato") ?>">
                     <div class="group-form">
                         <div class="col-xs-12 col-sm-12 col-md-6 form-group">
-                            <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="NOME" />
+                            <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="NOME*" />
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 form-group">
-                            <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="E-MAIL" />
+                            <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="E-MAIL*" />
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 form-group">
+                            <input id="telefone" type="text" class="telefone form-control" name="telefone" placeholder="TELEFONE" />
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 form-group">
+                            <div class="custom_select">
+                                <select id="assunto1" class="assunto1 form-control" name="assunto1" required="required">
+                                    <option value="" disabled selected>ASSUNTO*</option>
+                                    <option value="Dúvidas ou Sugestões">Dúvidas ou Sugestões</option>
+                                    <option value="Revenda">Revenda</option>
+                                    <option value="Representação Comercial">Representação Comercial</option>
+                                    <option value="Outros assuntos">Outros assuntos</option>
+                                </select>
+                            </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                            <textarea id="form-mensagem" class="msg form-control" rows="4" name="mss" placeholder="PEDIDO"></textarea>
+                            <textarea id="form-mensagem" class="msg form-control" rows="4" name="mss" required="required" placeholder="MENSAGEM"></textarea>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                        <div class="col-xs-9 col-sm-8 col-md-8 form-group">
+                            <small>* Os campos marcados com asterisco são de preenchimento obrigatório.</small>
+                        </div>
+                        <div class="col-xs-3 col-sm-4 col-md-4 form-group">
                             <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Enviar</button>
                         </div>
                     </div>
                 </form>
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 margin-top-20">
+                <a href="https://compras.azeitebatalha.com.br/" target="_blank">
+                    <img class="img-responsive" src="<?= base_url(); ?>assets/images/cta-comprar.png" alt="Comprar">
+                </a>
+            </div>
         </div>
     </div>
 </div>
-
 <div id="aviso" class="aviso text-center">
     <div>
         <button type="button" class="close" id="close"><span aria-hidden="true">&times;</span></button>
