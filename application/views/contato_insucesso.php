@@ -32,6 +32,14 @@
     <div class="galeria">
         <section class="glr-home slider">
             <div>
+                <a href="https://compras.azeitebatalha.com.br/produtos/" target="_blank">
+                    <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/BANNERSITE_1920X1080_BOASFESTAS_BATALHA_25_11.jpg" alt="Azeite Batalha">
+                </a>
+                <a href="https://compras.azeitebatalha.com.br/produtos/" target="_blank">
+                    <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/BANNERSITE_1920X1080_BOASFESTAS_BATALHA_25_11_mobile.jpg" alt="Azeite Batalha">
+                </a>
+            </div>
+            <div>
                 <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_01.jpg" alt="Azeite Batalha">
                 <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_01.jpg" alt="Azeite Batalha">
             </div>
@@ -41,6 +49,14 @@
                 </a>
                 <a class="scrollink" href="#receitas">
                     <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_02.jpg" alt="Azeite Batalha">
+                </a>
+            </div>
+            <div>
+                <a href="https://compras.azeitebatalha.com.br/produtos/" target="_blank">
+                    <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/BANNERSITE_1920X1080_BOASFESTAS_POLVO_25_11.jpg" alt="Azeite Batalha">
+                </a>
+                <a href="https://compras.azeitebatalha.com.br/produtos/" target="_blank">
+                    <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/BANNERSITE_1920X1080_BOASFESTAS_POLVO_25_11_mobile.jpg" alt="Azeite Batalha">
                 </a>
             </div>
             <div>
