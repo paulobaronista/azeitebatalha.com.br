@@ -245,6 +245,15 @@ p {
     background: url(../images/icone-zap.png) no-repeat right 10px center;
     background-color: rgba(0, 0, 0, 0);
     background-color: #aca727;
+    line-height: 16px;
+    padding: 5px 15px 10px;
+    sup {
+        font-size: 7px;
+        line-height: 10px;
+        width: 148px;
+        display: block;
+        padding-top: 3px;
+    }
 }
 
 .cookies {
