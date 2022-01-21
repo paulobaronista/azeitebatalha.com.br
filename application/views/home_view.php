@@ -33,14 +33,6 @@
     <div class="galeria">
         <section class="glr-home slider">
             <div>
-                <a href="https://compras.azeitebatalha.com.br/produtos/" target="_blank">
-                    <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/BANNERSITE_1920X1080_BOASFESTAS_BATALHA_25_11.jpg" alt="Azeite Batalha">
-                </a>
-                <a href="https://compras.azeitebatalha.com.br/produtos/" target="_blank">
-                    <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/BANNERSITE_1920X1080_BOASFESTAS_BATALHA_25_11_mobile.jpg" alt="Azeite Batalha">
-                </a>
-            </div>
-            <div>
                 <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_01.jpg" alt="Azeite Batalha">
                 <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_01.jpg" alt="Azeite Batalha">
             </div>
@@ -50,14 +42,6 @@
                 </a>
                 <a class="scrollink" href="#receitas">
                     <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_02.jpg" alt="Azeite Batalha">
-                </a>
-            </div>
-            <div>
-                <a href="https://compras.azeitebatalha.com.br/produtos/" target="_blank">
-                    <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/BANNERSITE_1920X1080_BOASFESTAS_POLVO_25_11.jpg" alt="Azeite Batalha">
-                </a>
-                <a href="https://compras.azeitebatalha.com.br/produtos/" target="_blank">
-                    <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/BANNERSITE_1920X1080_BOASFESTAS_POLVO_25_11_mobile.jpg" alt="Azeite Batalha">
                 </a>
             </div>
             <div>
@@ -331,6 +315,12 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 margin-top-20">
                 <a href="https://compras.azeitebatalha.com.br/" target="_blank">
                     <img class="img-responsive" src="<?= base_url(); ?>assets/images/cta-comprar.png" alt="Comprar">
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 margin-top-20 visible-xs">
+                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=+5511956289001" target="_blank" class="whats">Whatsapp
+                    <br />
+                    <sup>(apenas mensagens de texto, das 9h às 17hs)</sup>
                 </a>
             </div>
         </div>
